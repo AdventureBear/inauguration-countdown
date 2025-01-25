@@ -6,6 +6,7 @@ export const metadata = {
 
 export default function ResourcesPage() {
     return (
+        <article className="max-w-4xl mx-auto px-4 py-8 prose dark:prose-invert prose-blue">
         <div>
             <h1 className="text-3xl font-bold mb-6 prose prose">Voter Resources</h1>
             <div className="space-y-4">
@@ -102,5 +103,6 @@ export default function ResourcesPage() {
                 </section>
             </div>
         </div>
+        </article>
     )
 }
