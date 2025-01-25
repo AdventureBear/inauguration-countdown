@@ -10,7 +10,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: 'US Presidential Inauguration 2029 Countdown',
+    title: {
+        default: 'US Presidential Inauguration 2029 Countdown',
+        template: '%s | Inauguration 2029'
+    },
     description: 'Countdown to the 2029 US Presidential Inauguration with timeline, events, and historical information',
     keywords: [
         'US Presidential Inauguration',
@@ -18,11 +21,25 @@ export const metadata: Metadata = {
         'Presidential Transition',
         'Inauguration Countdown'
     ],
+    manifest: '/manifest.json',
+    icons: {
+        icon: [
+            { url: '/favicon.ico' },
+            { url: '/icon.png', type: 'image/png' },
+        ],
+        apple: [
+            { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+        ],
+        other: [
+            { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+            { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+        ],
+    },
     openGraph: {
         title: 'US Presidential Inauguration 2029 Countdown',
         description: 'Track the journey to the next US Presidential Inauguration',
         type: 'website',
-        url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+        url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nextpresidentialelection.us'
     },
     twitter: {
         card: 'summary_large_image',
