@@ -80,7 +80,7 @@ export default function Home() {
                     All content on this site is intended for educational purposes. We strive to provide 
                     accurate, nonpartisan information about American politics and history. While we draw 
                     from these authoritative sources, any errors or omissions are our own. If you notice 
-                    any inaccuracies, please contact us for correction.
+                    any inaccuracies, please contact us for correction at <a href="mailto:info@nextpresidentialelection.us">info@nextpresidentialelection.us</a>.
                 </p>
             </div>
             </div>
