@@ -3,21 +3,24 @@ import presidents from "@/data/presidents.json";
 import {slugify} from "@/utils/slugify";
 import {notFound} from "next/navigation";
 import type { Metadata } from 'next';
-import { Term } from '@/types/types';
+import {  Term } from '@/types/types';
 
 interface Props {
-    params: { president: string };
-    searchParams: { n?: string };
+    params: Promise<{ president: string }>;
+    searchParams: Promise<{ n?: string }>;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { president: presidentSlug } = params;
-    const president = presidents.presidents.find(e => slugify(e.name) === presidentSlug);
-    
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+    const { n } = await searchParams;
+    const { president: presidentSlug } = await params;
+    const president = presidents.presidents.find(e => 
+        slugify(e.name) === presidentSlug && 
+        e.number[0] === parseInt(n ?? "0")
+    );    
     if (!president) return { title: 'President Not Found' };
     
     return {
-        title: `${president.name} - ${president.number.join(', ')}${getOrdinal(president.number[0])} US President`,
+        title: `${president.name} - ${president.number}${getOrdinal(president.number[0])} US President`,
         description: `Learn about ${president.name}'s presidency, terms in office, and significant events.`
     };
 }
@@ -52,12 +55,13 @@ function calculateAge(birthDate: string, endDate: string): number {
 }
 
 export default async function PresidentPage({ params, searchParams }: Props) {
-    const presidentNumber = searchParams.n ? parseInt(searchParams.n) : undefined;
-    const president = presidents.presidents.find(p => 
-        slugify(p.name) === params.president && 
-        (presidentNumber ? p.number[0] === presidentNumber : true)
+    const {  president: presidentSlug } = await params;
+    const { n } = await searchParams;
+    const president = presidents.presidents.find(e => 
+        slugify(e.name) === presidentSlug && 
+        e.number[0] === parseInt(n ?? "0")
     );
-
+    
     if (!president) return notFound();
 
     const { previous, next } = getAdjacentPresidents(president.number[0]);
