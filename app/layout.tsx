@@ -32,7 +32,8 @@ export const metadata: Metadata = {
     robots: {
         index: true,
         follow: true
-    }
+    },
+    metadataBase: new URL('https://www.nextpresidentialelection.us'),
 };
 
 export default function RootLayout({

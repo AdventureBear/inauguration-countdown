@@ -3,7 +3,7 @@ import presidents from '@/data/presidents.json';
 import { slugify } from '@/utils/slugify';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://nextpresidentialelection.us';
+    const baseUrl = 'https://www.nextpresidentialelection.us';
 
     // Static routes
     const routes = [
