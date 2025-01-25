@@ -10,11 +10,13 @@ export const metadata = {
 export default function PresidentsPage() {
     return (
         <section className="mt-12">
+               <div className="max-w-6xl mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-6">Who are all of the Former US Presidents?</h1>
             <div className="flex flex-col gap-4">
                 {presidents.presidents.map((president) => (
                     <President key={president.name} president={president} />
                 ))}
+            </div>
             </div>
         </section>
     );
