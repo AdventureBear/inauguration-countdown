@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.nextpresidentialelection.us'),
     title: {
-        default: 'US Presidential Inauguration 2029 Countdown',
+        default: 'Countdown to the end of Trump\'s second term. US Presidential Inauguration 2029',
         template: '%s | Inauguration 2029'
     },
     description: 'Countdown to the end of Trump\'s second term with days remaining until the 2029 US Presidential Inauguration',
