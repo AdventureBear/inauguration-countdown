@@ -74,11 +74,15 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="mt-12 text-center">
-                    <p className="text-gray-600 dark:text-gray-300">
-                        Stay informed about American politics with our regularly updated guides and events calendar.
-                    </p>
-                </div>
+                <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+                <h2 className="mt-0">Note on Usage</h2>
+                <p>
+                    All content on this site is intended for educational purposes. We strive to provide 
+                    accurate, nonpartisan information about American politics and history. While we draw 
+                    from these authoritative sources, any errors or omissions are our own. If you notice 
+                    any inaccuracies, please contact us for correction.
+                </p>
+            </div>
             </div>
         </main>
     )

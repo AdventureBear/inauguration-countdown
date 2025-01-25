@@ -139,20 +139,22 @@ export default function Footer() {
                     {/* About Section */}
                     <div>
                         <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">About</h3>
-                        <Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                        <ul className="space-y-1">
+                        <li><Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                             Privacy Policy
-                        </Link>
-                        <Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                        </Link></li>
+                        <li><Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                             Attributions
-                        </Link>
-                        <Link href="https://thenounproject.com/browse/icons/term/american-eagle/" 
+                        </Link></li>
+                        <li><Link href="https://thenounproject.com/browse/icons/term/american-eagle/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             title="American Eagle Icons"
                             className="hover:text-blue-600 dark:hover:text-blue-400"
                         >
                             Noun Project
-                        </Link> (CC BY 3.0)
+                        </Link> (CC BY 3.0)</li>
+                        </ul>
                     </div>
                 </div>
 
