@@ -1,0 +1,1805 @@
+[
+  {
+      "number": [1],
+      "name": "George Washington",
+      "birthDate": "1732-02-22",
+      "placeOfBirth": "Westmoreland County, Virginia",
+      "deathDate": "1799-12-14",
+      "placeOfDeath": "Mount Vernon, Virginia",
+      "burialLocation": "Mount Vernon, Virginia",
+      "terms": [
+        {
+          "inaugurationDate": "1789-04-30",
+          "electedOn": "1788-01-07",
+          "yearStart": 1789,
+          "yearEnd": 1793,
+          "completedTerm": true,
+          "party": "None",
+          "opponents": ["None (unanimously elected)"],
+          "runningMate": "John Adams"
+        },
+        {
+          "inaugurationDate": "1793-03-04",
+          "electedOn": "1792-01-07",
+          "yearStart": 1793,
+          "yearEnd": 1797,
+          "completedTerm": true,
+          "party": "None",
+          "opponents": ["None (unanimously elected)"],
+          "runningMate": "John Adams"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Whiskey Rebellion",
+          "date": "1794-07-01",
+          "description": "A domestic uprising against the federal excise tax on whiskey.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Proclamation of Neutrality",
+          "date": "1793-04-22",
+          "description": "Declared the U.S. neutral in the conflict between France and Great Britain.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [2],
+      "name": "John Adams",
+      "birthDate": "1735-10-30",
+      "placeOfBirth": "Braintree, Massachusetts",
+      "deathDate": "1826-07-04",
+      "placeOfDeath": "Quincy, Massachusetts",
+      "burialLocation": "United First Parish Church, Quincy, Massachusetts",
+      "terms": [
+        {
+          "inaugurationDate": "1797-03-04",
+          "electedOn": "1796-11-04",
+          "yearStart": 1797,
+          "yearEnd": 1801,
+          "completedTerm": true,
+          "party": "Federalist",
+          "opponents": ["Thomas Jefferson"],
+          "runningMate": "Thomas Pinckney"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Alien and Sedition Acts",
+          "date": "1798-07-01",
+          "description": "Legislation that restricted immigration and limited speech critical of the government.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Quasi-War with France",
+          "date": "1798-01-01",
+          "description": "An undeclared naval war between the U.S. and France.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [3],
+      "name": "Thomas Jefferson",
+      "birthDate": "1743-04-13",
+      "placeOfBirth": "Shadwell, Virginia",
+      "deathDate": "1826-07-04",
+      "placeOfDeath": "Monticello, Virginia",
+      "burialLocation": "Monticello, Virginia",
+      "terms": [
+        {
+          "inaugurationDate": "1801-03-04",
+          "electedOn": "1800-11-04",
+          "yearStart": 1801,
+          "yearEnd": 1805,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["John Adams"],
+          "runningMate": "Aaron Burr"
+        },
+        {
+          "inaugurationDate": "1805-03-04",
+          "electedOn": "1804-11-04",
+          "yearStart": 1805,
+          "yearEnd": 1809,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["Charles Cotesworth Pinckney"],
+          "runningMate": "George Clinton"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Louisiana Purchase",
+          "date": "1803-04-30",
+          "description": "Doubled the size of the U.S. by purchasing territory from France.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Embargo Act",
+          "date": "1807-12-22",
+          "description": "Prohibited American ships from trading in foreign ports.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [4],
+      "name": "James Madison",
+      "birthDate": "1751-03-16",
+      "placeOfBirth": "Port Conway, Virginia",
+      "deathDate": "1836-06-28",
+      "placeOfDeath": "Montpelier, Virginia",
+      "burialLocation": "Montpelier, Virginia",
+      "terms": [
+        {
+          "inaugurationDate": "1809-03-04",
+          "electedOn": "1808-11-04",
+          "yearStart": 1809,
+          "yearEnd": 1813,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["Charles Cotesworth Pinckney"],
+          "runningMate": "George Clinton"
+        },
+        {
+          "inaugurationDate": "1813-03-04",
+          "electedOn": "1812-11-04",
+          "yearStart": 1813,
+          "yearEnd": 1817,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["DeWitt Clinton"],
+          "runningMate": "Elbridge Gerry"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "War of 1812",
+          "date": "1812-06-18",
+          "description": "Conflict between the U.S. and Great Britain over trade and territorial disputes.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [5],
+      "name": "James Monroe",
+      "birthDate": "1758-04-28",
+      "placeOfBirth": "Westmoreland County, Virginia",
+      "deathDate": "1831-07-04",
+      "placeOfDeath": "New York City, New York",
+      "burialLocation": "Hollywood Cemetery, Richmond, Virginia",
+      "terms": [
+        {
+          "inaugurationDate": "1817-03-04",
+          "electedOn": "1816-11-04",
+          "yearStart": 1817,
+          "yearEnd": 1821,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["Rufus King"],
+          "runningMate": "Daniel D. Tompkins"
+        },
+        {
+          "inaugurationDate": "1821-03-04",
+          "electedOn": "1820-11-04",
+          "yearStart": 1821,
+          "yearEnd": 1825,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["None (unopposed)"],
+          "runningMate": "Daniel D. Tompkins"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Monroe Doctrine",
+          "date": "1823-12-02",
+          "description": "U.S. foreign policy opposing European colonialism in the Americas.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Missouri Compromise",
+          "date": "1820-03-03",
+          "description": "Legislation that regulated slavery in western territories.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [6],
+      "name": "John Quincy Adams",
+      "birthDate": "1767-07-11",
+      "placeOfBirth": "Braintree, Massachusetts",
+      "deathDate": "1848-02-23",
+      "placeOfDeath": "Washington, D.C.",
+      "burialLocation": "United First Parish Church, Quincy, Massachusetts",
+      "terms": [
+        {
+          "inaugurationDate": "1825-03-04",
+          "electedOn": "1824-11-04",
+          "yearStart": 1825,
+          "yearEnd": 1829,
+          "completedTerm": true,
+          "party": "Democratic-Republican",
+          "opponents": ["Andrew Jackson", "William H. Crawford", "Henry Clay"],
+          "runningMate": "John C. Calhoun"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Erie Canal Completion",
+          "date": "1825-10-26",
+          "description": "The Erie Canal was completed, connecting the Great Lakes to the Atlantic Ocean.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Corrupt Bargain Controversy",
+          "date": "1825-02-09",
+          "description": "Accusations of a political deal between Adams and Henry Clay in the contested election of 1824.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  { "number": [7],
+      "name": "Andrew Jackson",
+      "birthDate": "1767-03-15",
+      "placeOfBirth": "Waxhaws Region, North Carolina/South Carolina Border",
+      "deathDate": "1845-06-08",
+      "placeOfDeath": "Nashville, Tennessee",
+      "burialLocation": "The Hermitage, Nashville, Tennessee",
+      "terms": [
+        {
+          "inaugurationDate": "1829-03-04",
+          "electedOn": "1828-11-04",
+          "yearStart": 1829,
+          "yearEnd": 1833,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["John Quincy Adams"],
+          "runningMate": "John C. Calhoun"
+        },
+        {
+          "inaugurationDate": "1833-03-04",
+          "electedOn": "1832-11-04",
+          "yearStart": 1833,
+          "yearEnd": 1837,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["Henry Clay"],
+          "runningMate": "Martin Van Buren"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Indian Removal Act",
+          "date": "1830-05-28",
+          "description": "Authorized the forced relocation of Native American tribes to lands west of the Mississippi.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Nullification Crisis",
+          "date": "1832-11-01",
+          "description": "A confrontation with South Carolina over the state's attempt to nullify federal tariffs.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [8],
+      "name": "Martin Van Buren",
+      "birthDate": "1782-12-05",
+      "placeOfBirth": "Kinderhook, New York",
+      "deathDate": "1862-07-24",
+      "placeOfDeath": "Kinderhook, New York",
+      "burialLocation": "Kinderhook Cemetery, Kinderhook, New York",
+      "terms": [
+        {
+          "inaugurationDate": "1837-03-04",
+          "electedOn": "1836-11-04",
+          "yearStart": 1837,
+          "yearEnd": 1841,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["William Henry Harrison", "Hugh Lawson White", "Daniel Webster", "Willie Person Mangum"],
+          "runningMate": "Richard Mentor Johnson"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Panic of 1837",
+          "date": "1837-05-10",
+          "description": "A financial crisis that led to a severe economic depression.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Amistad Case",
+          "date": "1839-08-29",
+          "description": "A court case involving enslaved Africans who revolted aboard the ship Amistad.",
+          "relatedToPresident": false
+        }
+      ]
+    },
+  {
+      "number": [9],
+      "name": "William Henry Harrison",
+      "birthDate": "1773-02-09",
+      "placeOfBirth": "Charles City County, Virginia",
+      "deathDate": "1841-04-04",
+      "placeOfDeath": "Washington, D.C.",
+      "burialLocation": "Harrison Tomb State Memorial, North Bend, Ohio",
+      "terms": [
+        {
+          "inaugurationDate": "1841-03-04",
+          "electedOn": "1840-11-04",
+          "yearStart": 1841,
+          "yearEnd": 1841,
+          "completedTerm": false,
+          "reasonForIncompletion": "Died of pneumonia after 31 days in office",
+          "party": "Whig",
+          "opponents": ["Martin Van Buren"],
+          "runningMate": "John Tyler"
+        }
+      ],
+      "significantEvents": []
+    },
+  {
+      "number": [10],
+      "name": "John Tyler",
+      "birthDate": "1790-03-29",
+      "placeOfBirth": "Charles City County, Virginia",
+      "deathDate": "1862-01-18",
+      "placeOfDeath": "Richmond, Virginia",
+      "burialLocation": "Hollywood Cemetery, Richmond, Virginia",
+      "terms": [
+        {
+          "inaugurationDate": "1841-04-06",
+          "electedOn": "1840-11-04",
+          "yearStart": 1841,
+          "yearEnd": 1845,
+          "completedTerm": true,
+          "party": "Whig",
+          "opponents": ["None (assumed presidency upon Harrison's death)"],
+          "runningMate": "None (assumed office)"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Annexation of Texas",
+          "date": "1845-03-01",
+          "description": "Signed a resolution to annex Texas into the United States.",
+          "relatedToPresident": true
+        }
+      ]}
+      , {
+      "number": [11],
+      "name": "James K. Polk",
+      "birthDate": "1795-11-02",
+      "placeOfBirth": "Pineville, North Carolina",
+      "deathDate": "1849-06-15",
+      "placeOfDeath": "Nashville, Tennessee",
+      "burialLocation": "Tennessee State Capitol, Nashville, Tennessee",
+      "terms": [
+        {
+          "inaugurationDate": "1845-03-04",
+          "electedOn": "1844-11-04",
+          "yearStart": 1845,
+          "yearEnd": 1849,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["Henry Clay"],
+          "runningMate": "George M. Dallas"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Mexican-American War",
+          "date": "1846-04-25",
+          "description": "Conflict between the U.S. and Mexico, resulting in the acquisition of territories in the southwest.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Oregon Treaty",
+          "date": "1846-06-15",
+          "description": "Established the U.S.-Canada border along the 49th parallel in the Pacific Northwest.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [12],
+      "name": "Zachary Taylor",
+      "birthDate": "1784-11-24",
+      "placeOfBirth": "Barboursville, Virginia",
+      "deathDate": "1850-07-09",
+      "placeOfDeath": "Washington, D.C.",
+      "burialLocation": "Zachary Taylor National Cemetery, Louisville, Kentucky",
+      "terms": [
+        {
+          "inaugurationDate": "1849-03-04",
+          "electedOn": "1848-11-07",
+          "yearStart": 1849,
+          "yearEnd": 1850,
+          "completedTerm": false,
+          "reasonForIncompletion": "Died of illness while in office",
+          "party": "Whig",
+          "opponents": ["Lewis Cass", "Martin Van Buren"],
+          "runningMate": "Millard Fillmore"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Debate over the Compromise of 1850",
+          "date": "1850-01-01",
+          "description": "A contentious series of bills intended to resolve disputes over slavery in new territories.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [13],
+      "name": "Millard Fillmore",
+      "birthDate": "1800-01-07",
+      "placeOfBirth": "Cayuga County, New York",
+      "deathDate": "1874-03-08",
+      "placeOfDeath": "Buffalo, New York",
+      "burialLocation": "Forest Lawn Cemetery, Buffalo, New York",
+      "terms": [
+        {
+          "inaugurationDate": "1850-07-10",
+          "electedOn": "1848-11-07",
+          "yearStart": 1850,
+          "yearEnd": 1853,
+          "completedTerm": true,
+          "party": "Whig",
+          "opponents": ["None (assumed office after Taylor's death)"],
+          "runningMate": "None (assumed office)"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Compromise of 1850",
+          "date": "1850-09-20",
+          "description": "A series of bills aiming to ease tensions between free and slave states.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Fugitive Slave Act",
+          "date": "1850-09-18",
+          "description": "Part of the Compromise of 1850, this law required the return of escaped slaves to their owners.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [14],
+      "name": "Franklin Pierce",
+      "birthDate": "1804-11-23",
+      "placeOfBirth": "Hillsborough, New Hampshire",
+      "deathDate": "1869-10-08",
+      "placeOfDeath": "Concord, New Hampshire",
+      "burialLocation": "Old North Cemetery, Concord, New Hampshire",
+      "terms": [
+        {
+          "inaugurationDate": "1853-03-04",
+          "electedOn": "1852-11-02",
+          "yearStart": 1853,
+          "yearEnd": 1857,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["Winfield Scott"],
+          "runningMate": "William R. King"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Kansas-Nebraska Act",
+          "date": "1854-05-30",
+          "description": "Legislation that allowed territories to decide on slavery, leading to violent conflicts.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Gadsden Purchase",
+          "date": "1854-12-30",
+          "description": "Acquired land from Mexico to facilitate a southern transcontinental railroad.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [15],
+      "name": "James Buchanan",
+      "birthDate": "1791-04-23",
+      "placeOfBirth": "Cove Gap, Pennsylvania",
+      "deathDate": "1868-06-01",
+      "placeOfDeath": "Lancaster, Pennsylvania",
+      "burialLocation": "Woodward Hill Cemetery, Lancaster, Pennsylvania",
+      "terms": [
+        {
+          "inaugurationDate": "1857-03-04",
+          "electedOn": "1856-11-04",
+          "yearStart": 1857,
+          "yearEnd": 1861,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["John C. Frémont", "Millard Fillmore"],
+          "runningMate": "John C. Breckinridge"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Dred Scott Decision",
+          "date": "1857-03-06",
+          "description": "Supreme Court ruling that African Americans could not be citizens and Congress had no power to regulate slavery in territories.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "John Brown's Raid on Harpers Ferry",
+          "date": "1859-10-16",
+          "description": "An abolitionist attempt to incite a slave rebellion.",
+          "relatedToPresident": false
+        }
+      ]
+    },
+  {
+      "number": [16],
+      "name": "Abraham Lincoln",
+      "birthDate": "1809-02-12",
+      "placeOfBirth": "Hodgenville, Kentucky",
+      "deathDate": "1865-04-15",
+      "placeOfDeath": "Washington, D.C.",
+      "burialLocation": "Oak Ridge Cemetery, Springfield, Illinois",
+      "terms": [
+        {
+          "inaugurationDate": "1861-03-04",
+          "electedOn": "1860-11-06",
+          "yearStart": 1861,
+          "yearEnd": 1865,
+          "completedTerm": false,
+          "reasonForIncompletion": "Assassinated by John Wilkes Booth",
+          "party": "Republican",
+          "opponents": ["John C. Breckinridge", "Stephen A. Douglas", "John Bell"],
+          "runningMate": "Hannibal Hamlin"
+        },
+        {
+          "inaugurationDate": "1865-03-04",
+          "electedOn": "1864-11-08",
+          "yearStart": 1865,
+          "yearEnd": 1865,
+          "completedTerm": false,
+          "reasonForIncompletion": "Assassinated by John Wilkes Booth",
+          "party": "National Union",
+          "opponents": ["George B. McClellan"],
+          "runningMate": "Andrew Johnson"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Emancipation Proclamation",
+          "date": "1863-01-01",
+          "description": "Declared all slaves in Confederate states to be free.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Gettysburg Address",
+          "date": "1863-11-19",
+          "description": "A famous speech delivered at the dedication of the Gettysburg National Cemetery.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [17],
+      "name": "Andrew Johnson",
+      "birthDate": "1808-12-29",
+      "placeOfBirth": "Raleigh, North Carolina",
+      "deathDate": "1875-07-31",
+      "placeOfDeath": "Elizabethton, Tennessee",
+      "burialLocation": "Andrew Johnson National Cemetery, Greeneville, Tennessee",
+      "terms": [
+        {
+          "inaugurationDate": "1865-04-15",
+          "electedOn": "1864-11-08",
+          "yearStart": 1865,
+          "yearEnd": 1869,
+          "completedTerm": true,
+          "party": "National Union",
+          "opponents": ["None (assumed office after Lincoln's assassination)"],
+          "runningMate": "None (assumed office)"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Reconstruction Era",
+          "date": "1865-1869",
+          "description": "Oversaw the reintegration of Southern states into the Union after the Civil War.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Impeachment Trial",
+          "date": "1868-02-24",
+          "description": "The first U.S. president to be impeached, but acquitted by one vote in the Senate.",
+          "relatedToPresident": true
+        }
+      ]
+    }
+  ,{
+      "number": [18],
+      "name": "Ulysses S. Grant",
+      "birthDate": "1822-04-27",
+      "placeOfBirth": "Point Pleasant, Ohio",
+      "deathDate": "1885-07-23",
+      "placeOfDeath": "Wilton, New York",
+      "burialLocation": "Grant's Tomb, New York City, New York",
+      "terms": [
+        {
+          "inaugurationDate": "1869-03-04",
+          "electedOn": "1868-11-03",
+          "yearStart": 1869,
+          "yearEnd": 1873,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["Horatio Seymour"],
+          "runningMate": "Schuyler Colfax"
+        },
+        {
+          "inaugurationDate": "1873-03-04",
+          "electedOn": "1872-11-05",
+          "yearStart": 1873,
+          "yearEnd": 1877,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["Horace Greeley"],
+          "runningMate": "Henry Wilson"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "15th Amendment Ratification",
+          "date": "1870-02-03",
+          "description": "Guaranteed voting rights regardless of race or previous servitude.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Credit Mobilier Scandal",
+          "date": "1872-09-04",
+          "description": "A corruption scandal involving railroad construction and government officials.",
+          "relatedToPresident": false
+        }
+      ]
+    },
+  {
+      "number": [19],
+      "name": "Rutherford B. Hayes",
+      "birthDate": "1822-10-04",
+      "placeOfBirth": "Delaware, Ohio",
+      "deathDate": "1893-01-17",
+      "placeOfDeath": "Fremont, Ohio",
+      "burialLocation": "Spiegel Grove, Fremont, Ohio",
+      "terms": [
+        {
+          "inaugurationDate": "1877-03-04",
+          "electedOn": "1876-11-07",
+          "yearStart": 1877,
+          "yearEnd": 1881,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["Samuel J. Tilden"],
+          "runningMate": "William A. Wheeler"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Compromise of 1877",
+          "date": "1877-03-04",
+          "description": "An informal deal that ended Reconstruction and resolved the disputed 1876 election.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Great Railroad Strike of 1877",
+          "date": "1877-07-14",
+          "description": "A nationwide labor strike against wage cuts in the railroad industry.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+      "number": [20],
+      "name": "James A. Garfield",
+      "birthDate": "1831-11-19",
+      "placeOfBirth": "Moreland Hills, Ohio",
+      "deathDate": "1881-09-19",
+      "placeOfDeath": "Elberon, New Jersey",
+      "burialLocation": "Lake View Cemetery, Cleveland, Ohio",
+      "terms": [
+        {
+          "inaugurationDate": "1881-03-04",
+          "electedOn": "1880-11-02",
+          "yearStart": 1881,
+          "yearEnd": 1881,
+          "completedTerm": false,
+          "reasonForIncompletion": "Assassinated by Charles J. Guiteau",
+          "party": "Republican",
+          "opponents": ["Winfield Scott Hancock"],
+          "runningMate": "Chester A. Arthur"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Assassination",
+          "date": "1881-07-02",
+          "description": "Shot by Charles J. Guiteau and succumbed to his injuries two months later.",
+          "relatedToPresident": true
+        }
+      ]
+    }, {
+      "number": [21],
+      "name": "Chester A. Arthur",
+      "birthDate": "1829-10-05",
+      "placeOfBirth": "Fairfield, Vermont",
+      "deathDate": "1886-11-18",
+      "placeOfDeath": "New York City, New York",
+      "burialLocation": "Albany Rural Cemetery, Menands, New York",
+      "terms": [
+        {
+          "inaugurationDate": "1881-09-20",
+          "electedOn": "1880-11-02",
+          "yearStart": 1881,
+          "yearEnd": 1885,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["None (assumed office after Garfield's assassination)"],
+          "runningMate": "None (assumed office)"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Pendleton Civil Service Reform Act",
+          "date": "1883-01-16",
+          "description": "Established a merit-based system for federal employment.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Chinese Exclusion Act",
+          "date": "1882-05-06",
+          "description": "Prohibited immigration of Chinese laborers to the United States.",
+          "relatedToPresident": true
+        }
+      ]
+    }, {
+      "number": [22],
+      "name": "Grover Cleveland",
+      "birthDate": "1837-03-18",
+      "placeOfBirth": "Caldwell, New Jersey",
+      "deathDate": "1908-06-24",
+      "placeOfDeath": "Princeton, New Jersey",
+      "burialLocation": "Princeton Cemetery, Princeton, New Jersey",
+      "terms": [
+        {
+          "inaugurationDate": "1885-03-04",
+          "electedOn": "1884-11-04",
+          "yearStart": 1885,
+          "yearEnd": 1889,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["James G. Blaine"],
+          "runningMate": "Thomas A. Hendricks"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Presidential Succession Act",
+          "date": "1886-01-19",
+          "description": "Defined the line of succession to the presidency.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Statue of Liberty Dedication",
+          "date": "1886-10-28",
+          "description": "The Statue of Liberty was dedicated in New York Harbor.",
+          "relatedToPresident": false
+        }
+      ]
+    }, {
+      "number": [23],
+      "name": "Benjamin Harrison",
+      "birthDate": "1833-08-20",
+      "placeOfBirth": "North Bend, Ohio",
+      "deathDate": "1901-03-13",
+      "placeOfDeath": "Indianapolis, Indiana",
+      "burialLocation": "Crown Hill Cemetery, Indianapolis, Indiana",
+      "terms": [
+        {
+          "inaugurationDate": "1889-03-04",
+          "electedOn": "1888-11-06",
+          "yearStart": 1889,
+          "yearEnd": 1893,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["Grover Cleveland"],
+          "runningMate": "Levi P. Morton"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Sherman Antitrust Act",
+          "date": "1890-07-02",
+          "description": "First federal act to prohibit monopolistic business practices.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Electricity in the White House",
+          "date": "1891-01-01",
+          "description": "The White House was wired for electricity during his term.",
+          "relatedToPresident": false
+        }
+      ]
+    }, {
+      "number": [24],
+      "name": "Grover Cleveland",
+      "birthDate": "1837-03-18",
+      "placeOfBirth": "Caldwell, New Jersey",
+      "deathDate": "1908-06-24",
+      "placeOfDeath": "Princeton, New Jersey",
+      "burialLocation": "Princeton Cemetery, Princeton, New Jersey",
+      "terms": [
+        {
+          "inaugurationDate": "1893-03-04",
+          "electedOn": "1892-11-08",
+          "yearStart": 1893,
+          "yearEnd": 1897,
+          "completedTerm": true,
+          "party": "Democratic",
+          "opponents": ["Benjamin Harrison", "James B. Weaver"],
+          "runningMate": "Adlai E. Stevenson"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Panic of 1893",
+          "date": "1893-05-05",
+          "description": "A financial crisis that led to a severe economic depression.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Pullman Strike",
+          "date": "1894-05-11",
+          "description": "A nationwide railroad strike that affected the economy and led to federal intervention.",
+          "relatedToPresident": true
+        }
+      ]
+    }, {
+      "number": [25],
+      "name": "William McKinley",
+      "birthDate": "1843-01-29",
+      "placeOfBirth": "Niles, Ohio",
+      "deathDate": "1901-09-14",
+      "placeOfDeath": "Buffalo, New York",
+      "burialLocation": "McKinley National Memorial, Canton, Ohio",
+      "terms": [
+        {
+          "inaugurationDate": "1897-03-04",
+          "electedOn": "1896-11-03",
+          "yearStart": 1897,
+          "yearEnd": 1901,
+          "completedTerm": true,
+          "party": "Republican",
+          "opponents": ["William Jennings Bryan"],
+          "runningMate": "Garret A. Hobart"
+        },
+        {
+          "inaugurationDate": "1901-03-04",
+          "electedOn": "1900-11-06",
+          "yearStart": 1901,
+          "yearEnd": 1901,
+          "completedTerm": false,
+          "reasonForIncompletion": "Assassinated by Leon Czolgosz",
+          "party": "Republican",
+          "opponents": ["William Jennings Bryan"],
+          "runningMate": "Theodore Roosevelt"
+        }
+      ],
+      "significantEvents": [
+        {
+          "title": "Spanish-American War",
+          "date": "1898-04-21",
+          "description": "Conflict between the U.S. and Spain, resulting in U.S. control of Guam, Puerto Rico, and the Philippines.",
+          "relatedToPresident": true
+        },
+        {
+          "title": "Annexation of Hawaii",
+          "date": "1898-07-07",
+          "description": "Hawaii was annexed as a U.S. territory.",
+          "relatedToPresident": true
+        }
+      ]
+    },
+  {
+    "number": [26],
+    "name": "Theodore Roosevelt",
+    "birthDate": "1858-10-27",
+    "placeOfBirth": "New York City, New York",
+    "deathDate": "1919-01-06",
+    "placeOfDeath": "Oyster Bay, New York",
+    "burialLocation": "Youngs Memorial Cemetery, Oyster Bay, New York",
+    "terms": [
+      {
+        "inaugurationDate": "1901-09-14",
+        "electedOn": "1900-11-06",
+        "yearStart": 1901,
+        "yearEnd": 1905,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["None (assumed office after McKinley's assassination)"],
+        "runningMate": "None (assumed office)"
+      },
+      {
+        "inaugurationDate": "1905-03-04",
+        "electedOn": "1904-11-08",
+        "yearStart": 1905,
+        "yearEnd": 1909,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Alton B. Parker"],
+        "runningMate": "Charles W. Fairbanks"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Panama Canal Construction Begins",
+        "date": "1904-05-04",
+        "description": "Oversaw the start of the Panama Canal project, connecting the Atlantic and Pacific Oceans.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Roosevelt Corollary",
+        "date": "1904-12-06",
+        "description": "Asserted U.S. authority in Latin America as an extension of the Monroe Doctrine.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [27],
+    "name": "William Howard Taft",
+    "birthDate": "1857-09-15",
+    "placeOfBirth": "Cincinnati, Ohio",
+    "deathDate": "1930-03-08",
+    "placeOfDeath": "Washington, D.C.",
+    "burialLocation": "Arlington National Cemetery, Arlington, Virginia",
+    "terms": [
+      {
+        "inaugurationDate": "1909-03-04",
+        "electedOn": "1908-11-03",
+        "yearStart": 1909,
+        "yearEnd": 1913,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["William Jennings Bryan"],
+        "runningMate": "James S. Sherman"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Antitrust Policy",
+        "date": "1911-05-15",
+        "description": "Broke up major monopolies, including Standard Oil.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Income Tax Amendment",
+        "date": "1913-02-03",
+        "description": "The 16th Amendment, allowing Congress to levy an income tax, was ratified.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [28],
+    "name": "Woodrow Wilson",
+    "birthDate": "1856-12-28",
+    "placeOfBirth": "Staunton, Virginia",
+    "deathDate": "1924-02-03",
+    "placeOfDeath": "Washington, D.C.",
+    "burialLocation": "Washington National Cathedral, Washington, D.C.",
+    "terms": [
+      {
+        "inaugurationDate": "1913-03-04",
+        "electedOn": "1912-11-05",
+        "yearStart": 1913,
+        "yearEnd": 1917,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Theodore Roosevelt", "William Howard Taft", "Eugene V. Debs"],
+        "runningMate": "Thomas R. Marshall"
+      },
+      {
+        "inaugurationDate": "1917-03-04",
+        "electedOn": "1916-11-07",
+        "yearStart": 1917,
+        "yearEnd": 1921,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Charles Evans Hughes"],
+        "runningMate": "Thomas R. Marshall"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "World War I",
+        "date": "1917-04-06",
+        "description": "Entered the U.S. into World War I to support Allied forces.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "League of Nations",
+        "date": "1919-01-10",
+        "description": "Championed the creation of the League of Nations as part of the Treaty of Versailles.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [29],
+    "name": "Warren G. Harding",
+    "birthDate": "1865-11-02",
+    "placeOfBirth": "Blooming Grove, Ohio",
+    "deathDate": "1923-08-02",
+    "placeOfDeath": "San Francisco, California",
+    "burialLocation": "Harding Tomb, Marion, Ohio",
+    "terms": [
+      {
+        "inaugurationDate": "1921-03-04",
+        "electedOn": "1920-11-02",
+        "yearStart": 1921,
+        "yearEnd": 1923,
+        "completedTerm": false,
+        "reasonForIncompletion": "Died of a heart attack",
+        "party": "Republican",
+        "opponents": ["James M. Cox"],
+        "runningMate": "Calvin Coolidge"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Teapot Dome Scandal",
+        "date": "1921-01-01",
+        "description": "A bribery scandal involving federal oil reserves.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Budget and Accounting Act",
+        "date": "1921-06-10",
+        "description": "Established the Bureau of the Budget and required annual budget submissions to Congress.",
+        "relatedToPresident": true
+      }
+    ]
+  }, {
+  "number": [30],
+  "name": "Calvin Coolidge",
+  "birthDate": "1872-07-04",
+  "placeOfBirth": "Plymouth Notch, Vermont",
+  "deathDate": "1933-01-05",
+  "placeOfDeath": "Northampton, Massachusetts",
+  "burialLocation": "Plymouth Notch Cemetery, Plymouth, Vermont",
+  "terms": [
+    {
+      "inaugurationDate": "1923-08-03",
+      "electedOn": "1920-11-02",
+      "yearStart": 1923,
+      "yearEnd": 1925,
+      "completedTerm": true,
+      "party": "Republican",
+      "opponents": ["None (assumed office after Harding's death)"],
+      "runningMate": "None (assumed office)"
+    },
+    {
+      "inaugurationDate": "1925-03-04",
+      "electedOn": "1924-11-04",
+      "yearStart": 1925,
+      "yearEnd": 1929,
+      "completedTerm": true,
+      "party": "Republican",
+      "opponents": ["John W. Davis", "Robert M. La Follette Sr."],
+      "runningMate": "Charles G. Dawes"
+    }
+  ],
+  "significantEvents": [
+    {
+      "title": "Revenue Act of 1924",
+      "date": "1924-06-02",
+      "description": "Reduced income tax rates and established the U.S. Board of Tax Appeals.",
+      "relatedToPresident": true
+    },
+    {
+      "title": "Immigration Act of 1924",
+      "date": "1924-05-26",
+      "description": "Restricted immigration by establishing national origin quotas.",
+      "relatedToPresident": true
+    }
+  ]
+},
+  {
+    "number": [31],
+    "name": "Herbert Hoover",
+    "birthDate": "1874-08-10",
+    "placeOfBirth": "West Branch, Iowa",
+    "deathDate": "1964-10-20",
+    "placeOfDeath": "New York City, New York",
+    "burialLocation": "Herbert Hoover Presidential Library and Museum, West Branch, Iowa",
+    "terms": [
+      {
+        "inaugurationDate": "1929-03-04",
+        "electedOn": "1928-11-06",
+        "yearStart": 1929,
+        "yearEnd": 1933,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Al Smith"],
+        "runningMate": "Charles Curtis"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Stock Market Crash of 1929",
+        "date": "1929-10-29",
+        "description": "Marked the beginning of the Great Depression.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Smoot-Hawley Tariff Act",
+        "date": "1930-06-17",
+        "description": "Raised tariffs on imported goods, worsening global economic conditions.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [32],
+    "name": "Franklin D. Roosevelt",
+    "birthDate": "1882-01-30",
+    "placeOfBirth": "Hyde Park, New York",
+    "deathDate": "1945-04-12",
+    "placeOfDeath": "Warm Springs, Georgia",
+    "burialLocation": "Springwood Estate, Hyde Park, New York",
+    "terms": [
+      {
+        "inaugurationDate": "1933-03-04",
+        "electedOn": "1932-11-08",
+        "yearStart": 1933,
+        "yearEnd": 1937,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Herbert Hoover"],
+        "runningMate": "John Nance Garner"
+      },
+      {
+        "inaugurationDate": "1937-01-20",
+        "electedOn": "1936-11-03",
+        "yearStart": 1937,
+        "yearEnd": 1941,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Alf Landon"],
+        "runningMate": "John Nance Garner"
+      },
+      {
+        "inaugurationDate": "1941-01-20",
+        "electedOn": "1940-11-05",
+        "yearStart": 1941,
+        "yearEnd": 1945,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Wendell Willkie"],
+        "runningMate": "Henry A. Wallace"
+      },
+      {
+        "inaugurationDate": "1945-01-20",
+        "electedOn": "1944-11-07",
+        "yearStart": 1945,
+        "yearEnd": 1945,
+        "completedTerm": false,
+        "reasonForIncompletion": "Died in office",
+        "party": "Democratic",
+        "opponents": ["Thomas E. Dewey"],
+        "runningMate": "Harry S. Truman"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "New Deal",
+        "date": "1933-1939",
+        "description": "A series of programs and reforms to combat the Great Depression.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "World War II",
+        "date": "1941-1945",
+        "description": "Led the U.S. during most of World War II as part of the Allied Powers.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [33],
+    "name": "Harry S. Truman",
+    "birthDate": "1884-05-08",
+    "placeOfBirth": "Lamar, Missouri",
+    "deathDate": "1972-12-26",
+    "placeOfDeath": "Kansas City, Missouri",
+    "burialLocation": "Truman Presidential Library and Museum, Independence, Missouri",
+    "terms": [
+      {
+        "inaugurationDate": "1945-04-12",
+        "electedOn": "1944-11-07",
+        "yearStart": 1945,
+        "yearEnd": 1949,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["None (assumed office after Roosevelt's death)"],
+        "runningMate": "None (assumed office)"
+      },
+      {
+        "inaugurationDate": "1949-01-20",
+        "electedOn": "1948-11-02",
+        "yearStart": 1949,
+        "yearEnd": 1953,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Thomas E. Dewey"],
+        "runningMate": "Alben W. Barkley"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Atomic Bombings of Hiroshima and Nagasaki",
+        "date": "1945-08-06",
+        "description": "Ordered the use of atomic bombs to end World War II.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Marshall Plan",
+        "date": "1948-04-03",
+        "description": "Economic aid to rebuild European countries after World War II.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [34],
+    "name": "Dwight D. Eisenhower",
+    "birthDate": "1890-10-14",
+    "placeOfBirth": "Denison, Texas",
+    "deathDate": "1969-03-28",
+    "placeOfDeath": "Washington, D.C.",
+    "burialLocation": "Eisenhower Presidential Library, Museum and Boyhood Home, Abilene, Kansas",
+    "terms": [
+      {
+        "inaugurationDate": "1953-01-20",
+        "electedOn": "1952-11-04",
+        "yearStart": 1953,
+        "yearEnd": 1957,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Adlai Stevenson II"],
+        "runningMate": "Richard Nixon"
+      },
+      {
+        "inaugurationDate": "1957-01-20",
+        "electedOn": "1956-11-06",
+        "yearStart": 1957,
+        "yearEnd": 1961,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Adlai Stevenson II"],
+        "runningMate": "Richard Nixon"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Interstate Highway System",
+        "date": "1956-06-29",
+        "description": "Signed the Federal-Aid Highway Act, creating the modern highway system.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Civil Rights Act of 1957",
+        "date": "1957-09-09",
+        "description": "First civil rights legislation since Reconstruction, focusing on voting rights.",
+        "relatedToPresident": true
+      }
+    ]
+  },{
+  "number": [35],
+  "name": "John F. Kennedy",
+  "birthDate": "1917-05-29",
+  "placeOfBirth": "Brookline, Massachusetts",
+  "deathDate": "1963-11-22",
+  "placeOfDeath": "Dallas, Texas",
+  "burialLocation": "Arlington National Cemetery, Arlington, Virginia",
+  "terms": [
+    {
+      "inaugurationDate": "1961-01-20",
+      "electedOn": "1960-11-08",
+      "yearStart": 1961,
+      "yearEnd": 1963,
+      "completedTerm": false,
+      "reasonForIncompletion": "Assassinated",
+      "party": "Democratic",
+      "opponents": ["Richard Nixon"],
+      "runningMate": "Lyndon B. Johnson"
+    }
+  ],
+  "significantEvents": [
+    {
+      "title": "Cuban Missile Crisis",
+      "date": "1962-10-16",
+      "description": "A 13-day confrontation with the Soviet Union over missiles in Cuba.",
+      "relatedToPresident": true
+    },
+    {
+      "title": "Space Race",
+      "date": "1961-05-25",
+      "description": "Declared the goal of landing a man on the Moon before the decade's end.",
+      "relatedToPresident": true
+    }
+  ]
+},
+  {
+    "number": [36],
+    "name": "Lyndon B. Johnson",
+    "birthDate": "1908-08-27",
+    "placeOfBirth": "Stonewall, Texas",
+    "deathDate": "1973-01-22",
+    "placeOfDeath": "Stonewall, Texas",
+    "burialLocation": "Johnson Family Cemetery, Stonewall, Texas",
+    "terms": [
+      {
+        "inaugurationDate": "1963-11-22",
+        "electedOn": "1960-11-08",
+        "yearStart": 1963,
+        "yearEnd": 1965,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["None (assumed office after Kennedy's assassination)"],
+        "runningMate": "None (assumed office)"
+      },
+      {
+        "inaugurationDate": "1965-01-20",
+        "electedOn": "1964-11-03",
+        "yearStart": 1965,
+        "yearEnd": 1969,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Barry Goldwater"],
+        "runningMate": "Hubert Humphrey"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Civil Rights Act of 1964",
+        "date": "1964-07-02",
+        "description": "Prohibited discrimination based on race, color, religion, sex, or national origin.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Great Society",
+        "date": "1964-1965",
+        "description": "A series of domestic programs aimed at eliminating poverty and racial injustice.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [37],
+    "name": "Richard Nixon",
+    "birthDate": "1913-01-09",
+    "placeOfBirth": "Yorba Linda, California",
+    "deathDate": "1994-04-22",
+    "placeOfDeath": "New York City, New York",
+    "burialLocation": "Richard Nixon Presidential Library and Museum, Yorba Linda, California",
+    "terms": [
+      {
+        "inaugurationDate": "1969-01-20",
+        "electedOn": "1968-11-05",
+        "yearStart": 1969,
+        "yearEnd": 1973,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Hubert Humphrey", "George Wallace"],
+        "runningMate": "Spiro Agnew"
+      },
+      {
+        "inaugurationDate": "1973-01-20",
+        "electedOn": "1972-11-07",
+        "yearStart": 1973,
+        "yearEnd": 1974,
+        "completedTerm": false,
+        "reasonForIncompletion": "Resigned",
+        "party": "Republican",
+        "opponents": ["George McGovern"],
+        "runningMate": "Spiro Agnew"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Watergate Scandal",
+        "date": "1972-1974",
+        "description": "A political scandal that led to Nixon's resignation.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Apollo 11 Moon Landing",
+        "date": "1969-07-20",
+        "description": "The first human Moon landing during Nixon's presidency.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [38],
+    "name": "Gerald Ford",
+    "birthDate": "1913-07-14",
+    "placeOfBirth": "Omaha, Nebraska",
+    "deathDate": "2006-12-26",
+    "placeOfDeath": "Rancho Mirage, California",
+    "burialLocation": "Gerald R. Ford Presidential Museum, Grand Rapids, Michigan",
+    "terms": [
+      {
+        "inaugurationDate": "1974-08-09",
+        "electedOn": "None (assumed office after Nixon's resignation)",
+        "yearStart": 1974,
+        "yearEnd": 1977,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["None (assumed office)"],
+        "runningMate": "None initially, later Nelson Rockefeller"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Pardon of Richard Nixon",
+        "date": "1974-09-08",
+        "description": "Ford granted a full pardon to Nixon for any crimes he might have committed as president.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Fall of Saigon",
+        "date": "1975-04-30",
+        "description": "Marked the end of the Vietnam War.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [39],
+    "name": "Jimmy Carter",
+    "birthDate": "1924-10-01",
+    "placeOfBirth": "Plains, Georgia",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "1977-01-20",
+        "electedOn": "1976-11-02",
+        "yearStart": 1977,
+        "yearEnd": 1981,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Gerald Ford"],
+        "runningMate": "Walter Mondale"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Camp David Accords",
+        "date": "1978-09-17",
+        "description": "Brokered peace agreements between Egypt and Israel.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Iran Hostage Crisis",
+        "date": "1979-11-04",
+        "description": "52 American diplomats and citizens were held hostage in Iran for 444 days.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [40],
+    "name": "Ronald Reagan",
+    "birthDate": "1911-02-06",
+    "placeOfBirth": "Tampico, Illinois",
+    "deathDate": "2004-06-05",
+    "placeOfDeath": "Bel Air, California",
+    "burialLocation": "Ronald Reagan Presidential Library, Simi Valley, California",
+    "terms": [
+      {
+        "inaugurationDate": "1981-01-20",
+        "electedOn": "1980-11-04",
+        "yearStart": 1981,
+        "yearEnd": 1985,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Jimmy Carter"],
+        "runningMate": "George H. W. Bush"
+      },
+      {
+        "inaugurationDate": "1985-01-20",
+        "electedOn": "1984-11-06",
+        "yearStart": 1985,
+        "yearEnd": 1989,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Walter Mondale"],
+        "runningMate": "George H. W. Bush"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Reaganomics",
+        "date": "1981-1989",
+        "description": "Economic policies focused on tax cuts, reduced social spending, and deregulation.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Iran-Contra Affair",
+        "date": "1985-1987",
+        "description": "A political scandal involving the secret sale of arms to Iran.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+
+
+
+  {
+    "number": [41],
+    "name": "George H. W. Bush",
+    "birthDate": "1924-06-12",
+    "placeOfBirth": "Milton, Massachusetts",
+    "deathDate": "2018-11-30",
+    "placeOfDeath": "Houston, Texas",
+    "burialLocation": "George Bush Presidential Library and Museum, College Station, Texas",
+    "terms": [
+      {
+        "inaugurationDate": "1989-01-20",
+        "electedOn": "1988-11-08",
+        "yearStart": 1989,
+        "yearEnd": 1993,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Michael Dukakis"],
+        "runningMate": "Dan Quayle"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Gulf War",
+        "date": "1990-1991",
+        "description": "Led a coalition to liberate Kuwait after Iraq's invasion.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Americans with Disabilities Act",
+        "date": "1990-07-26",
+        "description": "Signed legislation prohibiting discrimination based on disability.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [42],
+    "name": "Bill Clinton",
+    "birthDate": "1946-08-19",
+    "placeOfBirth": "Hope, Arkansas",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "1993-01-20",
+        "electedOn": "1992-11-03",
+        "yearStart": 1993,
+        "yearEnd": 1997,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["George H. W. Bush", "Ross Perot"],
+        "runningMate": "Al Gore"
+      },
+      {
+        "inaugurationDate": "1997-01-20",
+        "electedOn": "1996-11-05",
+        "yearStart": 1997,
+        "yearEnd": 2001,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Bob Dole", "Ross Perot"],
+        "runningMate": "Al Gore"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "North American Free Trade Agreement (NAFTA)",
+        "date": "1994-01-01",
+        "description": "Established a trilateral trade bloc between the U.S., Canada, and Mexico.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Impeachment",
+        "date": "1998-12-19",
+        "description": "Impeached by the House of Representatives but acquitted by the Senate.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [43],
+    "name": "George W. Bush",
+    "birthDate": "1946-07-06",
+    "placeOfBirth": "New Haven, Connecticut",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "2001-01-20",
+        "electedOn": "2000-11-07",
+        "yearStart": 2001,
+        "yearEnd": 2005,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Al Gore"],
+        "runningMate": "Dick Cheney"
+      },
+      {
+        "inaugurationDate": "2005-01-20",
+        "electedOn": "2004-11-02",
+        "yearStart": 2005,
+        "yearEnd": 2009,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["John Kerry"],
+        "runningMate": "Dick Cheney"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "September 11 Attacks",
+        "date": "2001-09-11",
+        "description": "Terrorist attacks on the U.S., leading to the War on Terror.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Iraq War",
+        "date": "2003-03-20",
+        "description": "Initiated a military conflict to remove Saddam Hussein from power.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [44],
+    "name": "Barack Obama",
+    "birthDate": "1961-08-04",
+    "placeOfBirth": "Honolulu, Hawaii",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "2009-01-20",
+        "electedOn": "2008-11-04",
+        "yearStart": 2009,
+        "yearEnd": 2013,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["John McCain"],
+        "runningMate": "Joe Biden"
+      },
+      {
+        "inaugurationDate": "2013-01-20",
+        "electedOn": "2012-11-06",
+        "yearStart": 2013,
+        "yearEnd": 2017,
+        "completedTerm": true,
+        "party": "Democratic",
+        "opponents": ["Mitt Romney"],
+        "runningMate": "Joe Biden"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "Affordable Care Act",
+        "date": "2010-03-23",
+        "description": "Health care reform aimed at expanding insurance coverage and reducing costs.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Operation Neptune Spear",
+        "date": "2011-05-02",
+        "description": "Osama bin Laden was killed in a U.S. Navy SEAL operation in Pakistan.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [45],
+    "name": "Donald Trump",
+    "birthDate": "1946-06-14",
+    "placeOfBirth": "Queens, New York City, New York",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "2017-01-20",
+        "electedOn": "2016-11-08",
+        "yearStart": 2017,
+        "yearEnd": 2021,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Hillary Clinton"],
+        "runningMate": "Mike Pence"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "COVID-19 Pandemic",
+        "date": "2020-01-20",
+        "description": "Global pandemic that defined much of Trump's last year in office.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "First Impeachment",
+        "date": "2019-12-18",
+        "description": "Impeached by the House of Representatives over abuse of power and obstruction of Congress, but acquitted by the Senate.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [46],
+    "name": "Joe Biden",
+    "birthDate": "1942-11-20",
+    "placeOfBirth": "Scranton, Pennsylvania",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "2021-01-20",
+        "electedOn": "2020-11-03",
+        "yearStart": 2021,
+        "yearEnd": null,
+        "completedTerm": false,
+        "party": "Democratic",
+        "opponents": ["Donald Trump"],
+        "runningMate": "Kamala Harris"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "COVID-19 Response",
+        "date": "2021-01-20",
+        "description": "Focused on vaccine distribution and economic recovery efforts.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "Infrastructure Investment and Jobs Act",
+        "date": "2021-11-15",
+        "description": "Signed a bipartisan infrastructure bill into law, investing in transportation and utilities.",
+        "relatedToPresident": true
+      }
+    ]
+  }
+
+
+
+
+]
+
+
