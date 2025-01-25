@@ -5,7 +5,7 @@ export default function LibertarianPartyPage() {
             
             <div className="not-prose mb-8 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg">
                 <p className="text-sm text-yellow-800 dark:text-yellow-200">
-                    Active: 1971-present. The Libertarian Party is America's third-largest political party, 
+                    Active: 1971-present. The Libertarian Party is America&apos;s third-largest political party, 
                     advocating for minimal government, free markets, civil liberties, and non-interventionist foreign policy.
                 </p>
             </div>
@@ -45,7 +45,7 @@ export default function LibertarianPartyPage() {
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Gary Johnson (2012, 2016)</h3>
-                    <p className="text-sm">Former New Mexico Governor. Received 3.3% of popular vote in 2016, the party's best showing.</p>
+                    <p className="text-sm">Former New Mexico Governor. Received 3.3% of popular vote in 2016, the party&apos;s best showing.</p>
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Ron Paul (1988)</h3>
@@ -106,7 +106,7 @@ export default function LibertarianPartyPage() {
                 <h2 className="mt-0">Current Status</h2>
                 <p>
                     The Libertarian Party maintains ballot access in most states and regularly fields candidates 
-                    at all levels of government. While it hasn't won major national offices, it has succeeded in 
+                    at all levels of government. While it hasn&apos;t won major national offices, it has succeeded in 
                     local elections and has influenced national political discourse on issues of individual liberty, 
                     government overreach, and fiscal policy.
                 </p>

@@ -9,7 +9,7 @@ const NAV_ITEMS = [
     { href: '/', label: 'Home' },
     { href: '/events', label: 'Timeline' },
     { href: '/presidents', label: 'Presidents' },
-    { href: '/resources', label: 'Voter Resources' }
+    { href: '/guides', label: 'Guides' }
 ];
 
 export default function Navigation() {

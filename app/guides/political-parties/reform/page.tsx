@@ -11,8 +11,9 @@ export default function ReformPartyPage() {
             </div>
 
             <h2>Origins and Formation</h2>
+
             <p>
-                The Reform Party grew out of Ross Perot's independent 1992 presidential campaign, which received 
+                The Reform Party grew out of Ross Perot&apos;s independent 1992 presidential campaign, which received 
                 19% of the popular vote - the highest third-party result since 1912. Perot officially founded 
                 the party in 1995 for his 1996 presidential run.
             </p>
@@ -121,9 +122,9 @@ export default function ReformPartyPage() {
                     and fiscal responsibility - continue to influence American political discourse.
                 </p>
                 <p>
-                    The party's emphasis on populist economic nationalism and political outsider status 
+                    The party&apos;s emphasis on populist economic nationalism and political outsider status 
                     foreshadowed later political developments, including aspects of both the Tea Party movement 
-                    and Donald Trump's 2016 presidential campaign.
+                    and Donald Trump&apos;s 2016 presidential campaign.
                 </p>
             </div>
         </article>

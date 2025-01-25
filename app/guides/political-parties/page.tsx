@@ -19,7 +19,7 @@ export default function PoliticalPartiesPage() {
                     <div className="mb-4">
                         <h4 className="font-semibold mb-2">Key Eras:</h4>
                         <ul className="list-disc pl-5 space-y-1">
-                            <li>Jeffersonian Era (1828-1860): States' rights, limited government</li>
+                            <li>Jeffersonian Era (1828-1860): States&apos; rights, limited government</li>
                             <li>Civil War & Reconstruction (1860-1896): Southern interests</li>
                             <li>Progressive Era (1896-1932): Urban reform, labor rights</li>
                             <li>New Deal Coalition (1932-1968): Social programs, civil rights</li>
@@ -40,7 +40,7 @@ export default function PoliticalPartiesPage() {
                             <li>Lincoln Era (1854-1877): Anti-slavery, strong federal government</li>
                             <li>Gilded Age (1877-1901): Pro-business, industrialization</li>
                             <li>Progressive Republican Era (1901-1932): Trust-busting, conservation</li>
-                            <li>Conservative Coalition (1932-1968): Anti-New Deal, states' rights</li>
+                            <li>Conservative Coalition (1932-1968): Anti-New Deal, states%apos; rights</li>
                             <li>Modern Era (1968-present): Social conservatism, free market economics</li>
                         </ul>
                     </div>
@@ -91,9 +91,9 @@ export default function PoliticalPartiesPage() {
                     particularly around key moments like the Civil War, the Great Depression, and the Civil Rights Movement.
                 </p>
                 <p>
-                    For example, the Republican Party of Lincoln's era championed federal power and civil rights, 
-                    positions more commonly associated with modern Democrats. Similarly, the Democratic Party's 
-                    historical support for states' rights and limited government now more closely aligns with 
+                    For example, the Republican Party of Lincoln%apos;s era championed federal power and civil rights, 
+                    positions more commonly associated with modern Democrats. Similarly, the Democratic Party%apos;s 
+                    historical support for states%apos; rights and limited government now more closely aligns with 
                     modern Republican positions.
                 </p>
             </div>

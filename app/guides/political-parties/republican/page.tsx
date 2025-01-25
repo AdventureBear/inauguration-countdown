@@ -6,7 +6,7 @@ export default function RepublicanPartyPage() {
             <div className="not-prose mb-8 p-4 bg-red-50 dark:bg-red-900/20 rounded-lg">
                 <p className="text-sm text-red-800 dark:text-red-200">
                     Founded in 1854, the Republican Party emerged from the anti-slavery movement and 
-                    quickly became a major force in American politics, earning the nickname "Grand Old Party" (GOP).
+                    quickly became a major force in American politics, earning the nickname &quot;Grand Old Party&quot; (GOP).
                 </p>
             </div>
 
@@ -56,7 +56,7 @@ export default function RepublicanPartyPage() {
                     <li>Opposition to federal expansion</li>
                     <li>Anti-communist stance</li>
                     <li>Free market economics</li>
-                    <li>States' rights advocacy</li>
+                    <li>States&apos; rights advocacy</li>
                 </ul>
             </div>
 
@@ -118,7 +118,7 @@ export default function RepublicanPartyPage() {
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-red-500"></div>
                             <h3 className="text-lg font-bold">1964: Southern Strategy</h3>
-                            <p className="text-sm">Appeals to Southern conservatives on states' rights</p>
+                            <p className="text-sm">Appeals to Southern conservatives on states&apos; rights</p>
                         </div>
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-red-500"></div>
@@ -132,7 +132,7 @@ export default function RepublicanPartyPage() {
             <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
                 <h2 className="mt-0">Current State</h2>
                 <p>
-                    Today's Republican Party is a center-right coalition advocating for conservative social values, 
+                    Today&apos;s Republican Party is a center-right coalition advocating for conservative social values, 
                     free market economics, deregulation, and strong national defense. The party draws strong support 
                     from rural areas, evangelical Christians, and business interests.
                 </p>

@@ -5,7 +5,7 @@ export default function WhigPartyPage() {
             
             <div className="not-prose mb-8 p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
                 <p className="text-sm text-purple-800 dark:text-purple-200">
-                    Active: 1833-1856. The Whig Party formed in opposition to Andrew Jackson's policies, 
+                    Active: 1833-1856. The Whig Party formed in opposition to Andrew Jackson&apos;s policies, 
                     championing modernization and moral reform in American society.
                 </p>
             </div>
@@ -13,14 +13,14 @@ export default function WhigPartyPage() {
             <h2>Origins and Name</h2>
             <p>
                 Named after the British Whigs who opposed absolute monarchy, the American Whig Party emerged 
-                in opposition to President Andrew Jackson, whom they viewed as an authoritarian "King Andrew."
+                in opposition to President Andrew Jackson, whom they viewed as an authoritarian &quot;King Andrew.&quot;
             </p>
 
             <h2>Core Principles</h2>
             <ul>
                 <li>Congressional supremacy over presidential power</li>
                 <li>Modernization and economic development</li>
-                <li>Federal funding for infrastructure ("internal improvements")</li>
+                <li>Federal funding for infrastructure (&quot;internal improvements&quot;)</li>
                 <li>Protective tariffs</li>
                 <li>National Bank</li>
                 <li>Public education</li>
@@ -31,7 +31,7 @@ export default function WhigPartyPage() {
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Henry Clay</h3>
-                    <p className="text-sm">Party founder, "The Great Compromiser," architect of the American System</p>
+                    <p className="text-sm">Party founder, &quot;The Great Compromiser,&quot; architect of the American System</p>
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Daniel Webster</h3>
@@ -49,7 +49,7 @@ export default function WhigPartyPage() {
 
             <h2>The American System</h2>
             <p>
-                Henry Clay's comprehensive economic program included:
+                Henry Clay&apos;s comprehensive economic program included:
             </p>
             <div className="not-prose grid gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
@@ -84,7 +84,7 @@ export default function WhigPartyPage() {
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-purple-500"></div>
                             <h3 className="text-lg font-bold">1850</h3>
-                            <p className="text-sm">Millard Fillmore becomes president after Taylor's death</p>
+                            <p className="text-sm">Millard Fillmore becomes president after Taylor&apos;s death</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export default function WhigPartyPage() {
                     for generations. Abraham Lincoln began his political career as a Whig before becoming a Republican.
                 </p>
                 <p>
-                    The Whigs' emphasis on checks and balances, opposition to executive overreach, and support for 
+                    The Whigs&apos; emphasis on checks and balances, opposition to executive overreach, and support for 
                     economic development continue to influence American political discourse.
                 </p>
             </div>

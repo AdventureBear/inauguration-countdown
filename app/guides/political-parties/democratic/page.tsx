@@ -13,10 +13,10 @@ export default function DemocraticPartyPage() {
             <h2>Origins and Early Years (1828-1860)</h2>
             <p>
                 The Democratic Party emerged from the Jeffersonian Democratic-Republican Party, formally organizing 
-                during Andrew Jackson's presidential campaign. The party initially championed:
+                during Andrew Jackson&apos;s presidential campaign. The party initially championed:
             </p>
             <ul>
-                <li>States' rights and limited federal government</li>
+                <li>States&apos; rights and limited federal government</li>
                 <li>Agrarian and frontier interests</li>
                 <li>Opposition to the national bank</li>
                 <li>Popular democracy (for white men)</li>
@@ -41,7 +41,7 @@ export default function DemocraticPartyPage() {
                 <ul>
                     <li>Anti-trust legislation</li>
                     <li>Labor rights and unions</li>
-                    <li>Women's suffrage</li>
+                    <li>Women&apos;s suffrage</li>
                     <li>Federal Reserve System</li>
                     <li>Income tax</li>
                 </ul>
@@ -50,7 +50,7 @@ export default function DemocraticPartyPage() {
             <h2>New Deal Coalition (1932-1968)</h2>
             <div className="mb-6">
                 <p>
-                    Franklin D. Roosevelt's New Deal transformed the party:
+                    Franklin D. Roosevelt&apos;s New Deal transformed the party:
                 </p>
                 <ul>
                     <li>Social Security and welfare programs</li>
@@ -79,7 +79,7 @@ export default function DemocraticPartyPage() {
             <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Andrew Jackson</h3>
-                    <p className="text-sm">Party founder and 7th President. Championed populist democracy and states' rights.</p>
+                    <p className="text-sm">Party founder and 7th President. Championed populist democracy and states&apos; rights.</p>
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Franklin D. Roosevelt</h3>
@@ -103,7 +103,7 @@ export default function DemocraticPartyPage() {
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-blue-500"></div>
                             <h3 className="text-lg font-bold">1860s: Civil War Split</h3>
-                            <p className="text-sm">Party divided over slavery and states' rights</p>
+                            <p className="text-sm">Party divided over slavery and states&apos; rights</p>
                         </div>
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-blue-500"></div>
@@ -132,7 +132,7 @@ export default function DemocraticPartyPage() {
             <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
                 <h2 className="mt-0">Current State</h2>
                 <p>
-                    Today's Democratic Party is a center-left coalition supporting progressive social policies, 
+                    Today&apos;s Democratic Party is a center-left coalition supporting progressive social policies, 
                     environmental protection, and regulated capitalism with strong social safety nets. The party 
                     draws support from urban areas, minorities, young voters, and educated professionals.
                 </p>

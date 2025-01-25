@@ -28,3 +28,9 @@ interface SignificantEvent {
     description: string; // Detailed explanation of the event
     relatedToPresident: boolean; // Whether the event is directly tied to the president
 }
+
+export interface GuideSection {
+    title: string;
+    slug: string;
+    subPages?: GuideSection[];
+}

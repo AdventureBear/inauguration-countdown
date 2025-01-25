@@ -5,7 +5,7 @@ export default function FederalistPartyPage() {
             
             <div className="not-prose mb-8 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
                 <p className="text-sm text-gray-800 dark:text-gray-200">
-                    Active: 1789-1824. America's first political party, the Federalists championed a strong central 
+                    Active: 1789-1824. America&apos;s first political party, the Federalists championed a strong central 
                     government and close ties with Great Britain.
                 </p>
             </div>
@@ -31,7 +31,7 @@ export default function FederalistPartyPage() {
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Foreign Policy</h3>
-                    <p className="text-sm">Jay's Treaty with Britain, maintaining peace and trade</p>
+                    <p className="text-sm">Jay&apos;s Treaty with Britain, maintaining peace and trade</p>
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">Judicial System</h3>
@@ -55,7 +55,7 @@ export default function FederalistPartyPage() {
                 </div>
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
                     <h3 className="text-lg font-bold mb-2">John Jay</h3>
-                    <p className="text-sm">First Chief Justice, negotiated Jay's Treaty</p>
+                    <p className="text-sm">First Chief Justice, negotiated Jay&apos;s Treaty</p>
                 </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function FederalistPartyPage() {
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-gray-500"></div>
                             <h3 className="text-lg font-bold">1789-1797</h3>
-                            <p className="text-sm">Hamilton's financial system implemented</p>
+                            <p className="text-sm">Hamilton&apos;s financial system implemented</p>
                         </div>
                         <div className="relative pl-8">
                             <div className="absolute left-0 w-5 h-5 rounded-full bg-gray-500"></div>

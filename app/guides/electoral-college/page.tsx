@@ -20,7 +20,7 @@ export default function ElectoralCollegePage() {
             <ol>
                 <li>Each state gets electoral votes equal to its total number of Senators (2) and Representatives (varies by population)</li>
                 <li>The District of Columbia gets 3 electoral votes (23rd Amendment)</li>
-                <li>In most states, the candidate who wins the popular vote gets all of that state's electoral votes</li>
+                <li>In most states, the candidate who wins the popular vote gets all of that state&apos;s electoral votes</li>
                 <li>Maine and Nebraska use a district system, splitting their electoral votes</li>
             </ol>
 
