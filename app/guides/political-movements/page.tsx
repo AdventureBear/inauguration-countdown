@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PoliticalMovementsPage() {
     return (
         <article className="max-w-4xl mx-auto px-4 py-8 prose dark:prose-invert prose-blue">
@@ -12,8 +14,12 @@ export default function PoliticalMovementsPage() {
 
             <h2>Modern Era (2000-Present)</h2>
             <div className="not-prose grid gap-4 mb-8">
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Tea Party Movement (2009-2016)</h3>
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg transition-all hover:border-blue-500 dark:hover:border-blue-400 group">
+                    <Link href="/guides/political-movements/tea-party" className="no-underline">
+                        <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                            Tea Party Movement (2009-2016)
+                        </h3>
+                    </Link>
                     <p className="text-sm mb-2">Associated with: Republican Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Fiscal conservatism</li>
@@ -24,7 +30,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Progressive Movement (2016-Present)</h3>
+                    <Link href="/guides/political-movements/progressive"><h3 className="text-lg font-bold mb-2">Progressive Movement (2016-Present)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Democratic Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Medicare for All</li>
@@ -35,7 +41,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">MAGA Movement (2015-Present)</h3>
+                    <Link href="/guides/political-movements/maga"><h3 className="text-lg font-bold mb-2">MAGA Movement (2015-Present)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Republican Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>America First policies</li>
@@ -49,7 +55,7 @@ export default function PoliticalMovementsPage() {
             <h2>Late 20th Century</h2>
             <div className="not-prose grid gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Religious Right (1970s-Present)</h3>
+                    <Link href="/guides/political-movements/religious-right"><h3 className="text-lg font-bold mb-2">Religious Right (1970s-Present)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Republican Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Social conservatism</li>
@@ -60,7 +66,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">New Left (1960s-1970s)</h3>
+                    <Link href="/guides/political-movements/new-left"><h3 className="text-lg font-bold mb-2">New Left (1960s-1970s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Democratic Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Anti-war activism</li>
@@ -74,7 +80,7 @@ export default function PoliticalMovementsPage() {
             <h2>Early-Mid 20th Century</h2>
             <div className="not-prose grid gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Civil Rights Movement (1954-1968)</h3>
+                    <Link href="/guides/political-movements/civil-rights"><h3 className="text-lg font-bold mb-2">Civil Rights Movement (1954-1968)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Initially bipartisan, later Democratic Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Racial equality</li>
@@ -85,7 +91,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Progressive Movement (1890s-1920s)</h3>
+                    <Link href="/guides/political-movements/progressive"><h3 className="text-lg font-bold mb-2">Progressive Movement (1890s-1920s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Both Republican and Democratic Parties</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Anti-corruption</li>
@@ -99,7 +105,7 @@ export default function PoliticalMovementsPage() {
             <h2>19th Century</h2>
             <div className="not-prose grid gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Abolitionist Movement (1830s-1860s)</h3>
+                    <Link href="/guides/political-movements/abolitionist"><h3 className="text-lg font-bold mb-2">Abolitionist Movement (1830s-1860s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Republican Party, Free Soil Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>End to slavery</li>
@@ -109,7 +115,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Temperance Movement (1820s-1920s)</h3>
+                    <Link href="/guides/political-movements/temperance"><h3 className="text-lg font-bold mb-2">Temperance Movement (1820s-1920s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Both major parties</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Prohibition of alcohol</li>
@@ -122,7 +128,7 @@ export default function PoliticalMovementsPage() {
             <h2>18th Century</h2>
             <div className="not-prose grid gap-4 mb-8">
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Anti-Federalist Movement (1780s)</h3>
+                    <Link href="/guides/political-movements/anti-federalist"><h3 className="text-lg font-bold mb-2">Anti-Federalist Movement (1780s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Later Democratic-Republican Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Opposition to Constitution without Bill of Rights</li>
@@ -133,7 +139,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Sons of Liberty (1760s-1770s)</h3>
+                    <Link href="/guides/political-movements/sons-of-liberty"><h3 className="text-lg font-bold mb-2">Sons of Liberty (1760s-1770s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Pre-party Revolutionary movement</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Opposition to British taxation</li>
@@ -144,7 +150,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Democratic-Republican Societies (1790s)</h3>
+                    <Link href="/guides/political-movements/democratic-republican-societies"><h3 className="text-lg font-bold mb-2">Democratic-Republican Societies (1790s)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Democratic-Republican Party</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Opposition to aristocratic tendencies</li>
@@ -155,7 +161,7 @@ export default function PoliticalMovementsPage() {
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-2">Regulators Movement (1760s-1771)</h3>
+                    <Link href="/guides/political-movements/regulators"><h3 className="text-lg font-bold mb-2">Regulators Movement (1760s-1771)</h3></Link>
                     <p className="text-sm mb-2">Associated with: Pre-Revolutionary colonial politics</p>
                     <ul className="list-disc pl-5 mb-0">
                         <li>Opposition to colonial corruption</li>

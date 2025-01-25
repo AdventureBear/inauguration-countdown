@@ -13,16 +13,22 @@ const inter = Inter({
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.nextpresidentialelection.us'),
     title: {
-        default: 'Countdown to the end of Trump\'s second term. US Presidential Inauguration 2029',
+        default: 'Countdown to US Presidential Inauguration 2029',
         template: '%s | Inauguration 2029'
     },
-    description: 'Countdown to the end of Trump\'s second term with days remaining until the 2029 US Presidential Inauguration',
+    description: 'Countdown to the US Presidential Inauguration 2029',
     keywords: [
         'End of Trump\'s second term',
-        'US Presidential Inauguration',
+        'US Presidential Inauguration 2029',
         'Election 2028',
         'Presidential Transition',
-        'Inauguration Countdown'
+        'Inauguration Countdown',
+        'Next Presidential Election',
+        'Next Presidential Inauguration',
+        'US Political History',
+        'US Political Parties',
+        'US Political Movements',
+        'US History'        
     ],
     openGraph: {
         title: 'Next Presidential Election Countdown',
