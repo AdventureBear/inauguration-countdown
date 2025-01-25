@@ -1,7 +1,7 @@
 // components/Navigation.tsx
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { usePathname } from 'next/navigation';
@@ -35,6 +35,7 @@ const NAV_ITEMS = [
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+    const [isScrolled, setIsScrolled] = useState(false);
     const pathname = usePathname();
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -43,9 +44,19 @@ export default function Navigation() {
         if (href === '/') return pathname === '/';
         return pathname.startsWith(href);
     };
+    
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
-        <nav className="bg-blue-800 text-white">
+        <nav className={`sticky top-0 z-50 bg-blue-800 text-white transition-shadow duration-200
+            ${isScrolled ? 'shadow-lg' : ''}`}>
             <div className="container mx-auto flex justify-between items-center py-6 px-4">
                 {/* Logo */}
                 <Link href="/" className="text-2xl font-bold">

@@ -10,18 +10,18 @@ export default function Footer() {
                     src="/us-flag.jpg"
                     alt=""
                     fill
-                    className="object-cover opacity-[0.3] dark:opacity-[0.02]"
+                    className="object-cover opacity-[0.1] dark:opacity-[0.02]"
                     priority={false}
                 />
             </div>
 
             {/* Content */}
-            <div className="relative max-w-6xl mx-auto px-4 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="relative max-w-6xl mx-auto px-4 py-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {/* Political Guides Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-gray-900 dark:text-gray-100">Political Guides</h3>
-                        <ul className="space-y-2">
+                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Political Guides</h3>
+                        <ul className="space-y-1">
                             <li>
                                 <Link href="/guides" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                                     All Guides
@@ -52,8 +52,8 @@ export default function Footer() {
 
                     {/* Political Movements Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-gray-900 dark:text-gray-100">Political Movements</h3>
-                        <ul className="space-y-2">
+                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Political Movements</h3>
+                        <ul className="space-y-1">
                             <li>
                                 <Link href="/guides/political-movements/civil-rights" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                                     Civil Rights Movement
@@ -82,10 +82,10 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Events & Elections Section */}
+                    {/* Events & Elections Section
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-gray-900 dark:text-gray-100">Events & Elections</h3>
-                        <ul className="space-y-2">
+                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Events & Elections</h3>
+                        <ul className="space-y-1">
                             <li>
                                 <Link href="/events" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                                     Upcoming Events
@@ -107,12 +107,12 @@ export default function Footer() {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     {/* Presidents Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-gray-900 dark:text-gray-100">Presidents</h3>
-                        <ul className="space-y-2">
+                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Presidents</h3>
+                        <ul className="space-y-1">
                             <li>
                                 <Link href="/presidents" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                                     All Presidents
@@ -135,31 +135,33 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                </div>
 
-                <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 text-center">
-                    <div className="mb-4 space-x-6">
+                    {/* About Section */}
+                    <div>
+                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">About</h3>
                         <Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                             Privacy Policy
                         </Link>
                         <Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                             Attributions
                         </Link>
-                    </div>
-                    <p className="text-gray-600 dark:text-gray-400">
-                        © {new Date().getFullYear()} Next Presidential Election. All rights reserved.
-                    </p>
-                    <div className="mt-4 text-xs text-gray-500 dark:text-gray-500">
-                        American Eagle by Raymond from <a 
-                            href="https://thenounproject.com/browse/icons/term/american-eagle/" 
+                        <Link href="https://thenounproject.com/browse/icons/term/american-eagle/" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             title="American Eagle Icons"
                             className="hover:text-blue-600 dark:hover:text-blue-400"
                         >
                             Noun Project
-                        </a> (CC BY 3.0)
+                        </Link> (CC BY 3.0)
                     </div>
+                </div>
+
+                <div className="mt-8 pt-4 border-t border-gray-200 dark:border-gray-800 text-center">
+                    
+                    <p className="text-gray-600 dark:text-gray-400">
+                        © {new Date().getFullYear()} Next Presidential Election. All rights reserved.
+                    </p>
+                
                 </div>
             </div>
         </footer>
