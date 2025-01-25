@@ -1,10 +1,7 @@
 import { ImageResponse } from 'next/og'
  
-export const runtime = 'edge'
- 
-export const size = {
-    width: 512,
-    height: 512,
+export const generateStaticParams = async () => {
+    return [{}]
 }
  
 export default function Image() {
@@ -35,7 +32,8 @@ export default function Image() {
             </div>
         ),
         {
-            ...size,
+            width: 512,
+            height: 512
         }
     )
 } 

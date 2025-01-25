@@ -1,8 +1,7 @@
 import { ImageResponse } from 'next/og'
  
-export const size = {
-    width: 192,
-    height: 192,
+export const generateStaticParams = async () => {
+    return [{}]
 }
  
 export default function Image() {
@@ -33,7 +32,9 @@ export default function Image() {
             </div>
         ),
         {
-            ...size,
+            width: 192,
+            height: 192
         }
     )
-} 
+}
+

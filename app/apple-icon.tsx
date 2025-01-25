@@ -1,7 +1,5 @@
 import { ImageResponse } from 'next/og'
  
-// Route segment config
-export const runtime = 'edge'
  
 // Image metadata
 export const size = {
@@ -9,15 +7,19 @@ export const size = {
     height: 180,
 }
  
+export const generateStaticParams = async () => {
+    return [{}]
+}
+ 
 // Image generation
-export default function Icon() {
+export default function Image() {
     return new ImageResponse(
         (
             <div
                 style={{
                     background: '#002868',
-                    width: '100%',
-                    height: '100%',
+                    width: '180px',
+                    height: '180px',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -38,7 +40,8 @@ export default function Icon() {
             </div>
         ),
         {
-            ...size,
+            width: 180,
+            height: 180
         }
     )
 } 

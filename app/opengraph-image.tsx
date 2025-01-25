@@ -1,9 +1,7 @@
 import { ImageResponse } from 'next/og'
  
-export const alt = 'Next Presidential Election'
-export const size = {
-    width: 1200,
-    height: 630,
+export const generateStaticParams = async () => {
+    return [{}]
 }
  
 export default function Image() {
@@ -12,8 +10,8 @@ export default function Image() {
             <div
                 style={{
                     background: '#002868',
-                    width: '100%',
-                    height: '100%',
+                    width: '1200px',
+                    height: '630px',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -44,7 +42,8 @@ export default function Image() {
             </div>
         ),
         {
-            ...size,
+            width: 1200,
+            height: 630
         }
     )
 } 
