@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import useCountdown from "@/app/hooks/useCountdown";
 
 // const INAUGURATION_DATE = '2029-01-20';
@@ -12,18 +12,10 @@ interface EventProps {
 export default function Countdown({eventDate}: EventProps) {
     const timeLeft = useCountdown(eventDate);
 
-    const [isClient, setIsClient] = useState(false);
-    useEffect(() => {
-        setIsClient(true)
-    }, []);
-
     // console.log(timeLeft);
     // Object.entries(timeLeft).map((entry) => {
     //     console.log(entry[0])
     // })
-
-
-    if (!isClient) return null
 
     if (!timeLeft) {
         return (
@@ -35,13 +27,12 @@ export default function Countdown({eventDate}: EventProps) {
 
     return (
         <div className="flex mb-2 justify-center rounded-lg font-bold text-blue-800 text-4xl text-center">
-            {Object.entries(timeLeft).map((entry) =>
-             (
-                 <div key ={`${entry[0]}${entry[1]}`} className="p-8 mx-4 bg-blue-50  dark:bg-gray-800 dark:text-blue-400 rounded-lg shadow-lg">
-                <div className="">{entry[1]}</div>
-                <div className="text-sm text-blue-600 dark:text-blue-300">{entry[0].toUpperCase()}</div>
-            </div>
-             ))}
+            {Object.entries(timeLeft).map((entry) => (
+                <div key={`${entry[0]}${entry[1]}`} className="p-8 mx-4 bg-blue-50 dark:bg-gray-800 dark:text-blue-400 rounded-lg shadow-lg">
+                    <div className="">{entry[1]}</div>
+                    <div className="text-sm text-blue-600 dark:text-blue-300">{entry[0].toUpperCase()}</div>
+                </div>
+            ))}
         </div>
-);
+    );
 }

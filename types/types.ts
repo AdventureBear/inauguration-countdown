@@ -1,24 +1,24 @@
-export type President = {
+export interface President {
     number: number[]; // Handles non-consecutive terms
     name: string;
     birthDate: string;
     placeOfBirth: string;
-    deathDate?: string; // Optional for living presidents
-    placeOfDeath?: string; // Optional for living presidents
-    burialLocation?: string; // Optional for presidents not yet buried
+    deathDate: string | null;
+    placeOfDeath: string | null;
+    burialLocation: string | null;
     terms: Term[];
     significantEvents: SignificantEvent[]; // Major events during presidency
 }
 
-interface Term {
+export interface Term {
     inaugurationDate: string;
     electedOn: string;
     yearStart: number;
-    yearEnd: number;
-    completedTerm: boolean;
-    reasonForIncompletion?: string; // E.g., "Assassination", "Resignation"
-    party: string; // Moved to Term to account for party changes
-    opponents: string[]; // Supports multiple opponents
+    yearEnd: number | null;
+    completedTerm: boolean | null;
+    reasonForIncompletion?: string;
+    party: string;
+    opponents: string[];
     runningMate: string;
 }
 

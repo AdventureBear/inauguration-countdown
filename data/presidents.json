@@ -927,10 +927,10 @@
     "burialLocation": "Youngs Memorial Cemetery, Oyster Bay, New York",
     "terms": [
       {
-        "inaugurationDate": "1901-09-14",
-        "electedOn": "1900-11-06",
-        "yearStart": 1901,
-        "yearEnd": 1905,
+        "inaugurationDate": "1897-03-04",
+        "electedOn": "1896-11-03",
+        "yearStart": 1897,
+        "yearEnd": 1901,
         "completedTerm": true,
         "party": "Republican",
         "opponents": ["None (assumed office after McKinley's assassination)"],
@@ -1554,9 +1554,6 @@
       }
     ]
   },
-
-
-
   {
     "number": [41],
     "name": "George H. W. Bush",
@@ -1728,7 +1725,7 @@
     ]
   },
   {
-    "number": [45, 47],
+    "number": [45],
     "name": "Donald Trump",
     "birthDate": "1946-06-14",
     "placeOfBirth": "Queens, New York City, New York",
@@ -1796,8 +1793,8 @@
         "inaugurationDate": "2021-01-20",
         "electedOn": "2020-11-03",
         "yearStart": 2021,
-        "yearEnd": null,
-        "completedTerm": false,
+        "yearEnd": 2025,
+        "completedTerm": true,
         "party": "Democratic",
         "opponents": ["Donald Trump"],
         "runningMate": "Kamala Harris"
@@ -1814,6 +1811,35 @@
         "title": "Infrastructure Investment and Jobs Act",
         "date": "2021-11-15",
         "description": "Signed a bipartisan infrastructure bill into law, investing in transportation and utilities.",
+        "relatedToPresident": true
+      }
+    ]
+  },
+  {
+    "number": [47],
+    "name": "Donald Trump",
+    "birthDate": "1946-06-14",
+    "placeOfBirth": "Queens, New York City, New York",
+    "deathDate": null,
+    "placeOfDeath": null,
+    "burialLocation": null,
+    "terms": [
+      {
+        "inaugurationDate": "2025-01-20",
+        "electedOn": "2024-11-05",
+        "yearStart": 2025,
+        "yearEnd": null,
+        "completedTerm": null,
+        "party": "Republican",
+        "opponents": ["Kamala Harris"],
+        "runningMate": "J.D. Vance"
+      }
+    ],
+    "significantEvents": [
+      {
+        "title": "First Week Executive Actions",
+        "date": "2025-01-20",
+        "description": "In his first week as 47th president, Trump signed hundreds of executive actions, including withdrawing from the Paris Climate Accords and WHO, reversing Biden-era policies, and pardoning January 6 defendants. The indoor inauguration ceremony was notable for its unconventional nature and the presence of prominent business leaders.",
         "relatedToPresident": true
       }
     ]

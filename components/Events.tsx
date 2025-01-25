@@ -7,10 +7,9 @@ const filteredEvents = events.events
     .filter((event) => !isNaN(new Date(event.date).getTime())) // Exclude invalid dates
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()); // Sort by ascending date
 
-console.log(filteredEvents);
 
 const Events = () => {
-    console.log(filteredEvents);
+   
     return (
         <section className="mt-12">
             <h2 className="text-2xl font-semibold mb-6">Key Events Leading Up To the Next US Presidential Election</h2>

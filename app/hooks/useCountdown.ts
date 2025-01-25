@@ -1,49 +1,37 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 
-interface timeLeft {
-    days: number
-    hours: number
-    minutes: number
-    seconds: number
-}
-
-// const eventDate = "2029-01-20"
-
-    const calculateTimeLeft = (eventDate: string) => {
-        const now:Date = new Date();
-        const target:Date = new Date(eventDate);
-        const difference = target.getTime() - now.getTime();
-
-        let timeLeft: timeLeft = {
-            days: 0,
-            hours: 0,
-            minutes: 0,
-            seconds: 0,
-        };
-
-        if (difference > 0) {
-            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-            const minutes = Math.floor((difference / 1000 / 60) % 60);
-            const seconds = Math.floor((difference / 1000) % 60);
-
-            timeLeft = { days, hours, minutes, seconds };
-        }
-        return timeLeft
-    };
 
     // Initial calculation
 
-const useCountdown = (eventDate: string) => {
-    const [timeLeft, setTimeLeft] = useState<timeLeft>(calculateTimeLeft(eventDate))
+const useCountdown = (targetDate: string) => {
+    const [timeLeft, setTimeLeft] = useState<Record<string, number> | null>(null);
 
     useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(calculateTimeLeft(eventDate));
-        }, 1000);
+        function calculateTime() {
+            const target = new Date(targetDate).getTime();
+            const now = Date.now();
+            const difference = target - now;
+
+            if (difference <= 0) {
+                setTimeLeft(null);
+                return;
+            }
+
+            setTimeLeft({
+                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+                seconds: Math.floor((difference % (1000 * 60)) / 1000)
+            });
+        }
+
+        calculateTime();
+        const timer = setInterval(calculateTime, 1000);
 
         return () => clearInterval(timer);
-    }, [eventDate]);
+    }, [targetDate]);
 
     return timeLeft;
 }
