@@ -16,89 +16,33 @@ export const metadata: Metadata = {
         default: 'US Presidential Inauguration 2029 Countdown',
         template: '%s | Inauguration 2029'
     },
-    description: 'Countdown to the 2029 US Presidential Inauguration with timeline, events, and historical information',
+    description: 'Countdown to the end of Trump\'s second term with days remaining until the 2029 US Presidential Inauguration',
     keywords: [
+        'End of Trump\'s second term',
         'US Presidential Inauguration',
         'Election 2028',
         'Presidential Transition',
         'Inauguration Countdown'
     ],
-    manifest: '/manifest.json',
-    icons: {
-        icon: [
-            {
-                url: '/icon.png',
-                sizes: '32x32',
-                type: 'image/png',
-            },
-            {
-                url: '/icon-192.png',
-                sizes: '192x192',
-                type: 'image/png',
-            },
-            {
-                url: '/icon-512.png',
-                sizes: '512x512',
-                type: 'image/png',
-            }
-        ],
-        apple: [
-            {
-                url: '/apple-icon.png',
-                sizes: '180x180',
-                type: 'image/png',
-            }
-        ],
-    },
     openGraph: {
-        title: 'US Presidential Inauguration 2029 Countdown',
-        description: 'Track the journey to the next US Presidential Inauguration',
+        title: 'Next Presidential Election Countdown',
+        description: 'Track the countdown to the next US Presidential Inauguration in 2029',
+        url: 'https://www.nextpresidentialelection.us',
+        siteName: 'Next Presidential Election',
+        locale: 'en_US',
         type: 'website',
-        url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nextpresidentialelection.us',
-        images: [
-            {
-                url: '/opengraph-image.png',
-                width: 1200,
-                height: 630,
-                alt: 'Next Presidential Election',
-            },
-        ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'US Presidential Inauguration 2029 Countdown',
-        description: 'Track the journey to the next US Presidential Inauguration'
+        title: 'Next Presidential Election Countdown',
+        description: 'Track the countdown to the next US Presidential Inauguration in 2029',
     },
     robots: {
         index: true,
-        follow: true
+        follow: true,
     },
+    manifest: '/manifest.json'
 };
-
-export async function generateImageMetadata() {
-    return [
-        {
-            contentType: 'image/png',
-            size: { width: 192, height: 192 },
-            id: 'icon-192',
-        },
-        {
-            contentType: 'image/png',
-            size: { width: 512, height: 512 },
-            id: 'icon-512',
-        },
-        {
-            contentType: 'image/png',
-            size: { width: 32, height: 32 },
-            id: 'icon',
-        },
-        {
-            contentType: 'image/png',
-            size: { width: 180, height: 180 },
-            id: 'apple-icon',
-        },
-    ]
-}
 
 export default function RootLayout({
     children,
