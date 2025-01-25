@@ -29,6 +29,9 @@ export default function Footer() {
                         </ul>
                     </nav>
                 </div>
+                <div className="mt-4 text-xs text-center text-gray-500 dark:text-gray-500">
+                    American Eagle by Raymond from <a href="https://thenounproject.com/browse/icons/term/american-eagle/" target="_blank" rel="noopener noreferrer" title="American Eagle Icons" className="hover:text-blue-600 dark:hover:text-blue-400">Noun Project</a> (CC BY 3.0)
+                </div>
             </div>
         </footer>
     );
