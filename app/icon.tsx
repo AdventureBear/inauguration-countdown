@@ -1,22 +1,20 @@
 import { ImageResponse } from 'next/og'
- 
-export const generateStaticParams = async () => {
-    return [{}]
-}
- 
-export default function Image() {
+
+export default function Icon({ size }: { size: { width: number, height: number } }) {
+    const borderWidth = Math.max(2, Math.floor(size.width / 24));
+    
     return new ImageResponse(
         (
             <div
                 style={{
                     background: '#002868',
-                    width: '32px',
-                    height: '32px',
+                    width: '100%',
+                    height: '100%',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     borderRadius: '50%',
-                    border: '2px solid #bf0a30',
+                    border: `${borderWidth}px solid #bf0a30`,
                 }}
             >
                 <svg
@@ -32,8 +30,8 @@ export default function Image() {
             </div>
         ),
         {
-            width: 32,
-            height: 32
+            width: size.width,
+            height: size.height
         }
     )
 } 

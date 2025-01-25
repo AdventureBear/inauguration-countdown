@@ -26,12 +26,28 @@ export const metadata: Metadata = {
     manifest: '/manifest.json',
     icons: {
         icon: [
-            { url: '/icon.png', type: 'image/png' },
-            { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
-            { url: '/icon-512.png', type: 'image/png', sizes: '512x512' },
+            {
+                url: '/icon.png',
+                sizes: '32x32',
+                type: 'image/png',
+            },
+            {
+                url: '/icon-192.png',
+                sizes: '192x192',
+                type: 'image/png',
+            },
+            {
+                url: '/icon-512.png',
+                sizes: '512x512',
+                type: 'image/png',
+            }
         ],
         apple: [
-            { url: '/apple-icon.png', type: 'image/png', sizes: '180x180' },
+            {
+                url: '/apple-icon.png',
+                sizes: '180x180',
+                type: 'image/png',
+            }
         ],
     },
     openGraph: {
@@ -58,6 +74,31 @@ export const metadata: Metadata = {
         follow: true
     },
 };
+
+export async function generateImageMetadata() {
+    return [
+        {
+            contentType: 'image/png',
+            size: { width: 192, height: 192 },
+            id: 'icon-192',
+        },
+        {
+            contentType: 'image/png',
+            size: { width: 512, height: 512 },
+            id: 'icon-512',
+        },
+        {
+            contentType: 'image/png',
+            size: { width: 32, height: 32 },
+            id: 'icon',
+        },
+        {
+            contentType: 'image/png',
+            size: { width: 180, height: 180 },
+            id: 'apple-icon',
+        },
+    ]
+}
 
 export default function RootLayout({
     children,
