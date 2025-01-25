@@ -13,10 +13,20 @@ interface Props {
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
     const { n } = await searchParams;
     const { president: presidentSlug } = await params;
-    const president = presidents.presidents.find(e => 
+    
+    let president;
+    if (n) 
+        {
+     president = presidents.presidents.find(e => 
         slugify(e.name) === presidentSlug && 
         e.number[0] === parseInt(n ?? "0")
-    );    
+    );    }
+    else {
+        president = presidents.presidents.find(e => 
+            slugify(e.name) === presidentSlug
+        );
+    }
+
     if (!president) return { title: 'President Not Found' };
     
     return {
@@ -57,10 +67,21 @@ function calculateAge(birthDate: string, endDate: string): number {
 export default async function PresidentPage({ params, searchParams }: Props) {
     const {  president: presidentSlug } = await params;
     const { n } = await searchParams;
-    const president = presidents.presidents.find(e => 
+    let president;
+    if (n) 
+        {
+     president = presidents.presidents.find(e => 
         slugify(e.name) === presidentSlug && 
         e.number[0] === parseInt(n ?? "0")
-    );
+    );    }
+    else {
+        president = presidents.presidents.find(e => 
+            slugify(e.name) === presidentSlug
+        );
+    }
+
+
+   
     
     if (!president) return notFound();
 
