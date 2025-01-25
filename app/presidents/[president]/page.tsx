@@ -10,7 +10,8 @@ interface Props {
 
 export default async function  PresidentPage({params}:Props) {
     const {presidentSlug } = await(params)
-    const president = presidents.find(e => slugify(e.name) === presidentSlug);
+
+    const president = presidents.president.find(e => slugify(e.name) === presidentSlug);
 
     if (!president) return notFound();
 

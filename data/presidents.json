@@ -1,3 +1,4 @@
+{ "presidents" :
 [
   {
       "number": [1],
@@ -1727,7 +1728,7 @@
     ]
   },
   {
-    "number": [45],
+    "number": [45, 47],
     "name": "Donald Trump",
     "birthDate": "1946-06-14",
     "placeOfBirth": "Queens, New York City, New York",
@@ -1744,6 +1745,16 @@
         "party": "Republican",
         "opponents": ["Hillary Clinton"],
         "runningMate": "Mike Pence"
+      },
+      {
+        "inaugurationDate": "2025-01-20",
+        "electedOn": "2020-11-05",
+        "yearStart": 2021,
+        "yearEnd": null,
+        "completedTerm": null,
+        "party": "Republican",
+        "opponents": ["Kamala Harris"],
+        "runningMate": "J.D. Vance"
       }
     ],
     "significantEvents": [
@@ -1754,9 +1765,20 @@
         "relatedToPresident": true
       },
       {
-        "title": "First Impeachment",
+        "title": "First Impeachment of Donald Trump",
         "date": "2019-12-18",
-        "description": "Impeached by the House of Representatives over abuse of power and obstruction of Congress, but acquitted by the Senate.",
+        "description": "The abuse of power charge alleged that Trump used the powers of the presidency to solicit foreign interference in the 2020 election to benefit his reelection campaign, undermining national security and the integrity of U.S. elections.",
+        "relatedToPresident": true
+      },
+      {
+        "title": "January 6th Capitol Attack",
+        "date": "2021-01-06",
+        "description": "A mob of supporters of President Donald Trump attacked the U.S. Capitol in an attempt to overturn the 2020 presidential election results, leading to widespread condemnation and subsequent legal actions.",
+        "relatedToPresident": true
+      },{
+        "title": "Second Impeachment of Donald Trump",
+        "date": "2021-01-13",
+        "description": "Donald Trump became the first U.S. president to be impeached twice when the House of Representatives charged him with incitement of insurrection following the January 6 Capitol attack. He was acquitted in the Senate trial.",
         "relatedToPresident": true
       }
     ]
@@ -1796,10 +1818,6 @@
       }
     ]
   }
-
-
-
-
-]
+]}
 
 
