@@ -1,5 +1,6 @@
 'use client';
 
+import { COLORS } from '@/components/PresidentialTimeline';
 import { useState } from 'react';
 import { President, Term } from '@/types/types';
 import presidents from '@/data/presidents.json';
@@ -58,7 +59,8 @@ export default function ComparePresidents() {
                     <PresidentialTimeline president1={president1} president2={president2} />
                     {/* Basic Info Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
+                                     border border-gray-200 dark:border-gray-700 ${COLORS.president1.card}`}>
                             <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">{president1.name}</h2>
                             <div className="space-y-3">
                                 <p><span className="font-semibold">Years in Office:</span> {getYearsInOffice(president1.terms)}</p>
@@ -69,7 +71,8 @@ export default function ComparePresidents() {
                             </div>
                         </div>
 
-                        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
+                        <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
+                                     border border-gray-200 dark:border-gray-700 ${COLORS.president2.card}`}>
                             <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">{president2.name}</h2>
                             <div className="space-y-3">
                                 <p><span className="font-semibold">Years in Office:</span> {getYearsInOffice(president2.terms)}</p>

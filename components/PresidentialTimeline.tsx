@@ -12,6 +12,23 @@ interface TimelineProps {
     president2: President | null;
 }
 
+export const COLORS = {
+    president1: {
+        bar: 'bg-teal-400',
+        barHover: 'hover:bg-teal-300',
+        tooltip: 'bg-teal-500',
+        tooltipText: 'text-teal-100',
+        card: 'border-l-4 border-teal-400'
+    },
+    president2: {
+        bar: 'bg-sky-400',
+        barHover: 'hover:bg-sky-300',
+        tooltip: 'bg-sky-500',
+        tooltipText: 'text-sky-100',
+        card: 'border-l-4 border-sky-400'
+    }
+};
+
 export default function PresidentialTimeline({ president1, president2 }: TimelineProps) {
   
 
@@ -89,52 +106,48 @@ export default function PresidentialTimeline({ president1, president2 }: Timelin
 
                 {/* President 1 - Above line */}
                 <div className="absolute w-full top-[20px]">
-                    {president1.terms.map((term, index) => {
-                        return (
-                            <div
-                                key={index}
-                                className="absolute h-6 bg-blue-500 rounded group 
-                                         hover:bg-blue-400 transition-colors duration-200"
-                                style={{
-                                    left: `${getPositionPercent(term.yearStart)}%`,
-                                    width: `${getPositionPercent(term.yearEnd || TIMELINE_END) - getPositionPercent(term.yearStart)}%`
-                                }}
-                            >
-                                <div className="hidden group-hover:block absolute -top-6 
-                                              left-0 bg-blue-600 text-white px-2 py-1 
-                                              rounded text-xs whitespace-nowrap z-20">
-                                    <div className="font-medium mb-0.5">{president1.name}</div>
-                                    <div>{term.yearStart}-{term.yearEnd || 'Present'}</div>
-                                    <div className="text-blue-200">{term.party}</div>
-                                </div>
+                    {president1.terms.map((term, index) => (
+                        <div
+                            key={index}
+                            className={`absolute h-6 rounded group transition-colors duration-200 
+                                     ${COLORS.president1.bar} ${COLORS.president1.barHover}`}
+                            style={{
+                                left: `${getPositionPercent(term.yearStart)}%`,
+                                width: `${getPositionPercent(term.yearEnd || TIMELINE_END) - getPositionPercent(term.yearStart)}%`
+                            }}
+                        >
+                            <div className={`hidden group-hover:block absolute -top-6 
+                                        left-0 px-2 py-1 rounded text-xs whitespace-nowrap z-20
+                                        ${COLORS.president1.tooltip} text-white`}>
+                                <div className="font-medium mb-0.5">{president1.name}</div>
+                                <div>{term.yearStart}-{term.yearEnd || 'Present'}</div>
+                                <div className={COLORS.president1.tooltipText}>{term.party}</div>
                             </div>
-                        );
-                    })}
+                        </div>
+                    ))}
                 </div>
 
                 {/* President 2 - Below line */}
                 <div className="absolute w-full top-[80px]">
-                    {president2.terms.map((term, index) => {
-                        return (
-                            <div
-                                key={index}
-                                className="absolute h-6 bg-red-500 rounded group
-                                         hover:bg-red-400 transition-colors duration-200"
-                                style={{
-                                    left: `${getPositionPercent(term.yearStart)}%`,
-                                    width: `${getPositionPercent(term.yearEnd || TIMELINE_END) - getPositionPercent(term.yearStart)}%`
-                                }}
-                            >
-                                <div className="hidden group-hover:block absolute -bottom-20 
-                                              left-0 bg-red-600 text-white px-2 py-1 
-                                              rounded text-xs whitespace-nowrap z-20">
-                                    <div className="font-medium mb-0.5">{president2.name}</div>
-                                    <div>{term.yearStart}-{term.yearEnd || 'Present'}</div>
-                                    <div className="text-red-200">{term.party}</div>
-                                </div>
+                    {president2.terms.map((term, index) => (
+                        <div
+                            key={index}
+                            className={`absolute h-6 rounded group transition-colors duration-200 
+                                     ${COLORS.president2.bar} ${COLORS.president2.barHover}`}
+                            style={{
+                                left: `${getPositionPercent(term.yearStart)}%`,
+                                width: `${getPositionPercent(term.yearEnd || TIMELINE_END) - getPositionPercent(term.yearStart)}%`
+                            }}
+                        >
+                            <div className={`hidden group-hover:block absolute -bottom-20 
+                                        left-0 px-2 py-1 rounded text-xs whitespace-nowrap z-20
+                                        ${COLORS.president2.tooltip} text-white`}>
+                                <div className="font-medium mb-0.5">{president2.name}</div>
+                                <div>{term.yearStart}-{term.yearEnd || 'Present'}</div>
+                                <div className={COLORS.president2.tooltipText}>{term.party}</div>
                             </div>
-                        );
-                    })}
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
