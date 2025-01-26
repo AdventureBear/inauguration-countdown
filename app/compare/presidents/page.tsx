@@ -1,10 +1,26 @@
 'use client';
 
-import { COLORS } from '@/components/PresidentialTimeline';
 import { useState } from 'react';
 import { President, Term } from '@/types/types';
 import presidents from '@/data/presidents.json';
 import PresidentialTimeline from '@/components/PresidentialTimeline';
+
+export const COLORS = {
+    president1: {
+        bar: 'bg-teal-400',
+        barHover: 'hover:bg-teal-300',
+        tooltip: 'bg-teal-500',
+        tooltipText: 'text-teal-100',
+        card: 'border-l-4 border-teal-400'
+    },
+    president2: {
+        bar: 'bg-sky-400',
+        barHover: 'hover:bg-sky-300',
+        tooltip: 'bg-sky-500',
+        tooltipText: 'text-sky-100',
+        card: 'border-l-4 border-sky-400'
+    }
+};
 
 export default function ComparePresidents() {
     const [president1, setPresident1] = useState<President | null>(null);
@@ -57,6 +73,7 @@ export default function ComparePresidents() {
             {president1 && president2 && (
                 <div className="space-y-8">
                     <PresidentialTimeline president1={president1} president2={president2} />
+                    
                     {/* Basic Info Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
@@ -84,27 +101,6 @@ export default function ComparePresidents() {
                         </div>
                     </div>
 
-                    {/* Terms Comparison */}
-                    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-                        <h3 className="text-2xl font-bold mb-6 text-center border-b pb-2">Terms in Office</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {[president1, president2].map((president, presIndex) => (
-                                <div key={presIndex} className="space-y-4">
-                                    {president.terms.map((term, index) => (
-                                        <div key={index} className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
-                                            <h4 className="font-bold mb-2">Term {index + 1}</h4>
-                                            <div className="space-y-2">
-                                                <p><span className="font-semibold">Years:</span> {term.yearStart}-{term.yearEnd || 'Present'}</p>
-                                                <p><span className="font-semibold">Party:</span> {term.party}</p>
-                                                <p><span className="font-semibold">Opponents:</span> {term.opponents.join(', ')}</p>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
                     {/* Significant Events */}
                     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
                         <h3 className="text-2xl font-bold mb-6 text-center border-b pb-2">Significant Events</h3>
@@ -115,7 +111,7 @@ export default function ComparePresidents() {
                                     {president.significantEvents.map((event, index) => (
                                         <div key={index} className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
                                             <h5 className="font-bold mb-2">{event.title}</h5>
-                                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{new Date(event.date).toLocaleDateString()}</p>
+                                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{event.date}</p>
                                             <p className="text-sm">{event.description}</p>
                                         </div>
                                     ))}
