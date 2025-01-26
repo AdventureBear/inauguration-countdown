@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function PoliticalPartiesPage() {
     return (
         <article className="max-w-4xl mx-auto px-4 py-8 prose dark:prose-invert prose-blue">
@@ -26,9 +28,9 @@ export default function PoliticalPartiesPage() {
                             <li>Modern Era (1968-present): Social liberalism, progressive policies</li>
                         </ul>
                     </div>
-                    <a href="/guides/political-parties/democratic" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                    <Link href="/guides/political-parties/democratic" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
                         Read more about the Democratic Party →
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="p-6 border border-red-100 dark:border-red-900 rounded-lg">
@@ -44,9 +46,9 @@ export default function PoliticalPartiesPage() {
                             <li>Modern Era (1968-present): Social conservatism, free market economics</li>
                         </ul>
                     </div>
-                    <a href="/guides/political-parties/republican" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                    <Link href="/guides/political-parties/republican" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
                         Read more about the Republican Party →
-                    </a>
+                    </Link>
                 </div>
             </div>
 
@@ -58,6 +60,19 @@ export default function PoliticalPartiesPage() {
                     <p className="text-sm mb-2">Active: 1789-1824</p>
                     <p className="text-sm mb-2">Key positions: Strong federal government, pro-British foreign policy, urban and commercial interests</p>
                     <p className="text-sm">Notable figures: Alexander Hamilton, John Adams</p>
+                    <Link href="/guides/political-parties/federalist" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
+                </div>
+
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                    <h3 className="text-lg font-bold mb-1">Democratic-Republican Party</h3>
+                    <p className="text-sm mb-2">Active: 1792-1824</p>
+                    <p className="text-sm mb-2">Key positions: States&apos; rights, strict interpretation of Constitution</p>
+                    <p className="text-sm mb-2">Notable figures: Thomas Jefferson, James Madison</p>
+                    <Link href="/guides/political-parties/democrat-republican" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
                 </div>
 
                 <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
@@ -65,23 +80,44 @@ export default function PoliticalPartiesPage() {
                     <p className="text-sm mb-2">Active: 1833-1856</p>
                     <p className="text-sm mb-2">Key positions: Modernization, economic protectionism, moral reform</p>
                     <p className="text-sm">Notable figures: Henry Clay, Daniel Webster</p>
-                </div>
-
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                    <h3 className="text-lg font-bold mb-1">Progressive Party</h3>
-                    <p className="text-sm mb-2">Active: 1912-1920</p>
-                    <p className="text-sm mb-2">Key positions: Anti-corruption, regulation of large corporations, social welfare</p>
-                    <p className="text-sm">Notable figures: Theodore Roosevelt</p>
+                    <Link href="/guides/political-parties/whig" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
                 </div>
             </div>
 
             <h2>Notable Third Parties</h2>
-            <ul>
-                <li>Green Party (1984-present)</li>
-                <li>Libertarian Party (1971-present)</li>
-                <li>Reform Party (1995-present)</li>
-                <li>American Independent Party (1967-present)</li>
-            </ul>
+            <div className="not-prose grid gap-4 mb-12">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                    <h3 className="text-lg font-bold mb-1">Green Party</h3>
+                    <p className="text-sm mb-2">Active: 1984-present</p>
+                    <p className="text-sm mb-2">Key positions: Environmentalism, social justice, grassroots democracy</p>
+                    <p className="text-sm">Notable figures: Ralph Nader, Jill Stein</p>
+                    <Link href="/guides/political-parties/green" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
+                </div>
+
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                    <h3 className="text-lg font-bold mb-1">Libertarian Party</h3>
+                    <p className="text-sm mb-2">Active: 1971-present</p>
+                    <p className="text-sm mb-2">Key positions: Individual liberty, free markets, non-interventionism</p>
+                    <p className="text-sm">Notable figures: Gary Johnson, Ron Paul</p>
+                    <Link href="/guides/political-parties/libertarian" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
+                </div>
+
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                    <h3 className="text-lg font-bold mb-1">Reform Party</h3>
+                    <p className="text-sm mb-2">Active: 1995-present</p>
+                    <p className="text-sm mb-2">Key positions: Fiscal responsibility, term limits, campaign finance reform</p>
+                    <p className="text-sm">Notable figures: Ross Perot, Jesse Ventura</p>
+                    <Link href="/guides/political-parties/reform" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+                        Learn more →
+                    </Link>
+                </div>
+            </div>
 
             <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
                 <h2 className="mt-0">Understanding Party Evolution</h2>

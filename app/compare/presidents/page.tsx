@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { President, Term } from '@/types/types';
 import presidents from '@/data/presidents.json';
 import PresidentialTimeline from '@/components/PresidentialTimeline';
+import Link from 'next/link';
+import { slugify } from '@/utils/slugify';
 
 export const COLORS = {
     president1: {
@@ -77,25 +79,85 @@ export default function ComparePresidents() {
                     {/* Basic Info Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
-                                     border border-gray-200 dark:border-gray-700 ${COLORS.president1.card}`}>
-                            <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">{president1.name}</h2>
+                                     border border-gray-200 dark:border-gray-700 
+                                     border-l-4 border-l-teal-400
+                                     hover:bg-teal-50 dark:hover:bg-teal-900/10
+                                     transition-colors duration-200`}>
+                            <h2 className="text-2xl font-bold mb-1 text-center text-teal-700 dark:text-teal-300">
+                                {president1.name}
+                            </h2>
+                            <p className="text-center text-sm text-teal-600 dark:text-teal-400 mb-4 border-b pb-2">
+                                {president1.number.length > 1 ? 
+                                    `${president1.number.join("th & ")}th President` : 
+                                    `${president1.number[0]}th President`}
+                            </p>
                             <div className="space-y-3">
                                 <p><span className="font-semibold">Years in Office:</span> {getYearsInOffice(president1.terms)}</p>
+                                <p><span className="font-semibold">Terms:</span></p>
+                                {president1.terms.map((term, index) => (
+                                    <div key={index} className="ml-4 text-sm">
+                                        <p>Term {index + 1}: {term.yearStart}-{term.yearEnd || 'Present'}</p>
+                                        <p className={term.completedTerm ? 
+                                            "text-green-600 dark:text-green-400" : 
+                                            "text-red-600 dark:text-red-400"}>
+                                            {term.completedTerm ? 
+                                                "✓ Completed term" : 
+                                                `✗ Did not complete term${term.reasonForIncompletion ? `: ${term.reasonForIncompletion}` : ''}`}
+                                        </p>
+                                    </div>
+                                ))}
                                 <p><span className="font-semibold">Birth:</span> {president1.birthDate}</p>
                                 <p><span className="font-semibold">Birth Place:</span> {president1.placeOfBirth}</p>
-                                <p><span className="font-semibold">Party:</span> {getLatestTerm(president1.terms)?.party}</p>
+                                <p><span className="font-semibold">Party: </span> 
+                                    <Link 
+                                        href={`/guides/political-parties/${slugify(getLatestTerm(president1.terms)?.party as string)}`} 
+                                        className="font-semibold text-blue-500 hover:underline"
+                                    >
+                                        {getLatestTerm(president1.terms)?.party}
+                                    </Link>
+                                </p>
                                 <p><span className="font-semibold">Running Mate:</span> {getLatestTerm(president1.terms)?.runningMate}</p>
                             </div>
                         </div>
 
                         <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
-                                     border border-gray-200 dark:border-gray-700 ${COLORS.president2.card}`}>
-                            <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">{president2.name}</h2>
+                                     border border-gray-200 dark:border-gray-700 
+                                     border-l-4 border-l-sky-400
+                                     hover:bg-sky-50 dark:hover:bg-sky-900/10
+                                     transition-colors duration-200`}>
+                            <h2 className="text-2xl font-bold mb-1 text-center text-sky-700 dark:text-sky-300">
+                                {president2.name}
+                            </h2>
+                            <p className="text-center text-sm text-sky-600 dark:text-sky-400 mb-4 border-b pb-2">
+                                {president2.number.length > 1 ? 
+                                    `${president2.number.join("th & ")}th President` : 
+                                    `${president2.number[0]}th President`}
+                            </p>
                             <div className="space-y-3">
                                 <p><span className="font-semibold">Years in Office:</span> {getYearsInOffice(president2.terms)}</p>
+                                <p><span className="font-semibold">Terms:</span></p>
+                                {president2.terms.map((term, index) => (
+                                    <div key={index} className="ml-4 text-sm">
+                                        <p>Term {index + 1}: {term.yearStart}-{term.yearEnd || 'Present'}</p>
+                                        <p className={term.completedTerm ? 
+                                            "text-green-600 dark:text-green-400" : 
+                                            "text-red-600 dark:text-red-400"}>
+                                            {term.completedTerm ? 
+                                                "✓ Completed term" : 
+                                                `✗ Did not complete term${term.reasonForIncompletion ? `: ${term.reasonForIncompletion}` : ''}`}
+                                        </p>
+                                    </div>
+                                ))}
                                 <p><span className="font-semibold">Birth:</span> {president2.birthDate}</p>
                                 <p><span className="font-semibold">Birth Place:</span> {president2.placeOfBirth}</p>
-                                <p><span className="font-semibold">Party:</span> {getLatestTerm(president2.terms)?.party}</p>
+                                <p><span className="font-semibold">Party: </span>
+                                    <Link 
+                                        href={`/guides/political-parties/${slugify(getLatestTerm(president2.terms)?.party as string)}`} 
+                                        className="font-semibold text-blue-500 hover:underline"
+                                    >
+                                        {getLatestTerm(president2.terms)?.party}
+                                    </Link>
+                                </p>
                                 <p><span className="font-semibold">Running Mate:</span> {getLatestTerm(president2.terms)?.runningMate}</p>
                             </div>
                         </div>
