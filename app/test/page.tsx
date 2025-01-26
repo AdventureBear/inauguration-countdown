@@ -1,14 +1,16 @@
-import GlossaryLink from '@/components/GlossaryLink';
+'use client';
+
+import AutoLink from '@/components/AutoLink';
 
 export default function TestPage() {
     return (
         <div className="p-8">
-            <GlossaryLink>
+            <AutoLink>
                 <p>
-                    The Populist Movement and Civil Rights movement were important in American history. 
-                    Social Conservatism and Progressive Movement often clash on issues of Social Justice.
-                </p>
-            </GlossaryLink>
+                    Maga .  maga Biden and Trump are the two most important presidents in American history. The Populist Movement and Civil Rights movement were important in American history. 
+                    Social Conservatism and Progressive Movement often clash on issues of Social Justice. Trump and Biden are the two most important presidents in American history. maga
+                </p> 
+            </AutoLink>
         </div>
     );
 } 

@@ -1,7 +1,11 @@
+import AutoLink from "@/components/AutoLink";
+
 export default function MAGAMovementPage() {
     return (
         <article className="max-w-4xl mx-auto px-4 py-8 prose dark:prose-invert prose-blue">
+            <AutoLink>
             <h1>Make America Great Again (MAGA) Movement</h1>
+         
             
             <div className="not-prose mb-8 p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
                 <p className="text-sm text-blue-800 dark:text-blue-200">
@@ -56,6 +60,7 @@ export default function MAGAMovementPage() {
                     American politics.
                 </p>
             </div>
+            </AutoLink>
         </article>
     );
 } 

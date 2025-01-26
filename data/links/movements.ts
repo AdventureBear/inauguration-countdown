@@ -1,0 +1,30 @@
+export const movementTerms = [
+    // Political and Social Movements
+    { id: 'civil-rights', term: 'Civil Rights Movement', variations: ['Civil Rights', 'civil rights movement'], type: 'movement', href: '/guides/political-movements/civil-rights' },
+    { id: 'progressive', term: 'Progressive Movement', variations: ['Progressive Era', 'progressivism'], type: 'movement', href: '/guides/political-movements/progressive' },
+    { id: 'populist', term: 'Populist Movement', variations: ['Populism', 'People\'s Party'], type: 'movement', href: '/guides/political-movements/populist' },
+    { id: 'tea-party', term: 'Tea Party Movement', variations: ['Tea Party'], type: 'movement', href: '/guides/political-movements/tea-party' },
+    { id: 'maga', term: 'MAGA', variations: [
+        'Make America Great Again',
+        'MAGA Movement',
+        'Maga',
+        'maga'
+    ], type: 'movement', href: '/guides/political-movements/maga' },
+    { id: 'new-deal', term: 'New Deal', variations: ['New Deal programs', 'New Deal era'], type: 'movement', href: '/guides/political-movements/new-deal' },
+    { id: 'great-society', term: 'Great Society', variations: ['Great Society programs'], type: 'movement', href: '/guides/political-movements/great-society' },
+    { id: 'religious-right', term: 'Religious Right', variations: ['Christian Right', 'Moral Majority'], type: 'movement', href: '/guides/political-movements/religious-right' },
+    { id: 'new-left', term: 'New Left', variations: ['New Left movement'], type: 'movement', href: '/guides/political-movements/new-left' },
+    { id: 'environmentalism', term: 'Environmental Movement', variations: ['environmentalism', 'environmental movement'], type: 'movement', href: '/guides/political-movements/environmental' },
+    { id: 'womens-rights', term: 'Women\'s Rights Movement', variations: ['women\'s movement', 'feminist movement', 'feminism'], type: 'movement', href: '/guides/political-movements/womens-rights' },
+    { id: 'labor', term: 'Labor Movement', variations: ['labor movement', 'trade union movement'], type: 'movement', href: '/guides/political-movements/labor' },
+    { id: 'civil-rights-60s', term: 'Civil Rights Movement of the 1960s', variations: ['1960s Civil Rights Movement'], type: 'movement', href: '/guides/political-movements/civil-rights-60s' },
+    { id: 'black-power', term: 'Black Power Movement', variations: ['Black Power'], type: 'movement', href: '/guides/political-movements/black-power' },
+    { id: 'chicano', term: 'Chicano Movement', variations: ['La Raza', 'Mexican American Civil Rights Movement'], type: 'movement', href: '/guides/political-movements/chicano' },
+    { id: 'american-indian', term: 'American Indian Movement', variations: ['AIM', 'Native American Movement'], type: 'movement', href: '/guides/political-movements/american-indian' },
+    { id: 'conservative', term: 'Conservative Movement', variations: ['modern conservatism', 'New Right'], type: 'movement', href: '/guides/political-movements/conservative' },
+    { id: 'neoconservative', term: 'Neoconservative Movement', variations: ['neoconservatism', 'neocons'], type: 'movement', href: '/guides/political-movements/neoconservative' },
+    { id: 'antiwar', term: 'Anti-War Movement', variations: ['peace movement', 'antiwar movement'], type: 'movement', href: '/guides/political-movements/antiwar' },
+    { id: 'occupy', term: 'Occupy Movement', variations: ['Occupy Wall Street', 'OWS'], type: 'movement', href: '/guides/political-movements/occupy' },
+    { id: 'black-lives-matter', term: 'Black Lives Matter', variations: ['BLM', 'Black Lives Matter movement'], type: 'movement', href: '/guides/political-movements/black-lives-matter' },
+    { id: 'metoo', term: 'Me Too Movement', variations: ['#MeToo', 'MeToo'], type: 'movement', href: '/guides/political-movements/metoo' },
+] as const; 
