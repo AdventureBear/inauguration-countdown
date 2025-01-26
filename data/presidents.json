@@ -1749,6 +1749,7 @@
         "yearStart": 2021,
         "yearEnd": null,
         "completedTerm": null,
+        "reasonForIncompletion": "Current President",
         "party": "Republican",
         "opponents": ["Kamala Harris"],
         "runningMate": "J.D. Vance"
@@ -1832,7 +1833,17 @@
         "completedTerm": null,
         "party": "Republican",
         "opponents": ["Kamala Harris"],
-        "runningMate": "J.D. Vance"
+        "runningMate": "J.D. Vance",
+        "reasonForIncompletion": "Current President"
+      },  {
+        "inaugurationDate": "2017-01-20",
+        "electedOn": "2016-11-08",
+        "yearStart": 2017,
+        "yearEnd": 2021,
+        "completedTerm": true,
+        "party": "Republican",
+        "opponents": ["Hillary Clinton"],
+        "runningMate": "Mike Pence"
       }
     ],
     "significantEvents": [

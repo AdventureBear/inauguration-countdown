@@ -1,11 +1,11 @@
 'use client';
 
-import { President, Term } from '@/types/types';
+import { President } from '@/types/types';
 import { useState, useRef, MouseEvent } from 'react';
 
 const TIMELINE_START = 1789; // First presidency
-const TIMELINE_END = new Date().getFullYear();
-const TIMELINE_WIDTH = 100; // percentage
+const TIMELINE_END = new Date().getFullYear() +4;
+// const TIMELINE_WIDTH = 100; // percentage
 
 interface TimelineProps {
     president1: President | null;
