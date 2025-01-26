@@ -16,7 +16,7 @@ export default function ContactPage() {
                         info@nextpresidentialelection.us
                     </p>
                     
-                    <h2 className="text-lg font-semibold mb-3">We're here to help with:</h2>
+                    <h2 className="text-lg font-semibold mb-3">We&apos;re here to help with:</h2>
                     <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                         <li>• Historical data corrections</li>
                         <li>• Educational resources and study guides</li>
