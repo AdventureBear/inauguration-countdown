@@ -5,6 +5,7 @@ import "./globals.css"
 import Navigation from "../components/Navigation"
 import Footer from "../components/Footer"
 import Breadcrumbs from "@/components/Breadcrumbs"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -58,7 +59,9 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             
-            <body className={inter.className}>
+            <body 
+                className={inter.className}  
+                suppressHydrationWarning={true}>
                 
                     <div className="flex flex-col min-h-screen">
                         <Navigation />
@@ -68,7 +71,7 @@ export default function RootLayout({
                         <Breadcrumbs />
                     
                             {children}
-                            
+                            <Analytics />
                         </main>
                         <Footer />
                     </div>

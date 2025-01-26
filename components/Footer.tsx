@@ -3,21 +3,9 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer className="relative bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-            {/* Background Image */}
-            <div className="absolute inset-0 overflow-hidden">
-                <Image
-                    src="/us-flag.jpg"
-                    alt=""
-                    fill
-                    className="object-cover opacity-[0.1] dark:opacity-[0.02]"
-                    priority={false}
-                />
-            </div>
-
-            {/* Content */}
-            <div className="relative max-w-6xl mx-auto px-4 py-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <footer className="mt-auto py-8 bg-gray-50 dark:bg-gray-900">
+            <div className="max-w-7xl mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Political Guides Section */}
                     <div>
                         <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Political Guides</h3>
@@ -82,88 +70,35 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Events & Elections Section
-                    <div>
-                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Events & Elections</h3>
-                        <ul className="space-y-1">
-                            <li>
-                                <Link href="/events" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Upcoming Events
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/events/presidential" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Presidential Election
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/events/primaries" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Primary Elections
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/events/debates" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Debates
-                                </Link>
-                            </li>
-                        </ul>
-                    </div> */}
-
-                    {/* Presidents Section */}
-                    <div>
-                        <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">Presidents</h3>
-                        <ul className="space-y-1">
-                            <li>
-                                <Link href="/presidents" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    All Presidents
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/presidents/joe-biden" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Joe Biden
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/presidents/donald-trump" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Donald Trump
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/presidents/barack-obama" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                                    Barack Obama
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
                     {/* About Section */}
                     <div>
                         <h3 className="font-bold text-lg mb-2 text-gray-900 dark:text-gray-100">About</h3>
                         <ul className="space-y-1">
-                        <li><Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                            Privacy Policy
-                        </Link></li>
-                        <li><Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
-                            Attributions
-                        </Link></li>
-                        <li><Link className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-                        href="https://thenounproject.com/browse/icons/term/american-eagle/" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            title="American Eagle Icons"
-                        >
-                            Noun Project
-                        </Link> (CC BY 3.0)</li>
+                            <li><Link href="/privacy" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                                Privacy Policy
+                            </Link></li>
+                            <li><Link href="/contact" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                                Contact
+                            </Link></li>
+                            <li><Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                                Attributions
+                            </Link></li>
+                            <li><Link className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+                                href="https://thenounproject.com/browse/icons/term/american-eagle/" 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                title="American Eagle Icons"
+                            >
+                                Noun Project
+                            </Link> (CC BY 3.0)</li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="mt-8 pt-4 border-t border-gray-200 dark:border-gray-800 text-center">
-                    
-                    <p className="text-gray-600 dark:text-gray-400">
+                <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800">
+                    <p className="text-center text-gray-600 dark:text-gray-400">
                         © {new Date().getFullYear()} Next Presidential Election. All rights reserved.
                     </p>
-                
                 </div>
             </div>
         </footer>
