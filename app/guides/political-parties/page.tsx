@@ -5,7 +5,7 @@ export default function PoliticalPartiesPage() {
         <article className="max-w-4xl mx-auto px-4 py-8 prose dark:prose-invert prose-blue">
             <h1>American Political Parties: A Historical Guide</h1>
             
-            <div className="not-prose mb-8 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+            <div className="not-prose mb-8 p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
                 <p className="text-sm text-blue-800 dark:text-blue-200">
                     The United States has seen several major political parties rise and fall throughout its history, 
                     with positions and platforms evolving significantly over time.
@@ -15,7 +15,8 @@ export default function PoliticalPartiesPage() {
             <h2>Current Major Parties</h2>
             
             <div className="not-prose grid gap-6 mb-12">
-                <div className="p-6 border border-blue-100 dark:border-blue-900 rounded-lg">
+                <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30">
                     <h3 className="text-xl font-bold mb-2">Democratic Party</h3>
                     <p className="text-sm mb-3">Founded: 1828</p>
                     <div className="mb-4">
@@ -33,7 +34,8 @@ export default function PoliticalPartiesPage() {
                     </Link>
                 </div>
 
-                <div className="p-6 border border-red-100 dark:border-red-900 rounded-lg">
+                <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30">
                     <h3 className="text-xl font-bold mb-2">Republican Party</h3>
                     <p className="text-sm mb-3">Founded: 1854</p>
                     <div className="mb-4">
@@ -55,7 +57,8 @@ export default function PoliticalPartiesPage() {
             <h2>Historical Parties</h2>
             
             <div className="not-prose grid gap-4 mb-12">
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Federalist Party</h3>
                     <p className="text-sm mb-2">Active: 1789-1824</p>
                     <p className="text-sm mb-2">Key positions: Strong federal government, pro-British foreign policy, urban and commercial interests</p>
@@ -65,7 +68,8 @@ export default function PoliticalPartiesPage() {
                     </Link>
                 </div>
 
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Democratic-Republican Party</h3>
                     <p className="text-sm mb-2">Active: 1792-1824</p>
                     <p className="text-sm mb-2">Key positions: States&apos; rights, strict interpretation of Constitution</p>
@@ -75,7 +79,8 @@ export default function PoliticalPartiesPage() {
                     </Link>
                 </div>
 
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Whig Party</h3>
                     <p className="text-sm mb-2">Active: 1833-1856</p>
                     <p className="text-sm mb-2">Key positions: Modernization, economic protectionism, moral reform</p>
@@ -88,7 +93,8 @@ export default function PoliticalPartiesPage() {
 
             <h2>Notable Third Parties</h2>
             <div className="not-prose grid gap-4 mb-12">
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Green Party</h3>
                     <p className="text-sm mb-2">Active: 1984-present</p>
                     <p className="text-sm mb-2">Key positions: Environmentalism, social justice, grassroots democracy</p>
@@ -98,7 +104,8 @@ export default function PoliticalPartiesPage() {
                     </Link>
                 </div>
 
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Libertarian Party</h3>
                     <p className="text-sm mb-2">Active: 1971-present</p>
                     <p className="text-sm mb-2">Key positions: Individual liberty, free markets, non-interventionism</p>
@@ -108,7 +115,8 @@ export default function PoliticalPartiesPage() {
                     </Link>
                 </div>
 
-                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg 
+                              bg-white dark:bg-gray-800/30 hover:dark:bg-gray-800/40">
                     <h3 className="text-lg font-bold mb-1">Reform Party</h3>
                     <p className="text-sm mb-2">Active: 1995-present</p>
                     <p className="text-sm mb-2">Key positions: Fiscal responsibility, term limits, campaign finance reform</p>
@@ -119,7 +127,7 @@ export default function PoliticalPartiesPage() {
                 </div>
             </div>
 
-            <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-800/30 rounded-lg">
                 <h2 className="mt-0">Understanding Party Evolution</h2>
                 <p>
                     American political parties have undergone significant transformations throughout history. 

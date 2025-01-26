@@ -4,6 +4,7 @@ import {slugify} from "@/utils/slugify";
 import {notFound} from "next/navigation";
 import type { Metadata } from 'next';
 import {  Term } from '@/types/types';
+import Link from 'next/link';
 
 interface Props {
     params: Promise<{ president: string }>;
@@ -95,7 +96,19 @@ export default async function PresidentPage({ params, searchParams }: Props) {
                     {president.number}{getOrdinal(president.number[0])} President of the United States
                 </p>
             </header>
-
+            {/* compare button */}
+            <div className="mb-6 flex justify-end">
+                <Link 
+                    href={`/compare/presidents?p1=${president.number[0]}`}
+                    className="inline-flex items-center px-4 py-2 bg-blue-500/70 hover:bg-blue-600/90 
+                             text-white rounded-lg transition-colors duration-200"
+                >
+                    <svg className="w-4 h-4 mr-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                    Compare
+                </Link>
+            </div>
             <nav className="flex justify-between mb-8">
                 {previous && (
                     <a

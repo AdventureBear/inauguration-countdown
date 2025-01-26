@@ -6,6 +6,8 @@ import presidents from '@/data/presidents.json';
 import PresidentialTimeline from '@/components/PresidentialTimeline';
 import Link from 'next/link';
 import { slugify } from '@/utils/slugify';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { Suspense } from 'react';
 
 export const COLORS = {
     president1: {
@@ -24,9 +26,30 @@ export const COLORS = {
     }
 };
 
-export default function ComparePresidents() {
-    const [president1, setPresident1] = useState<President | null>(null);
-    const [president2, setPresident2] = useState<President | null>(null);
+function ComparePresidentsContent() {
+    const searchParams = useSearchParams();
+    const router = useRouter();
+    const [president1, setPresident1] = useState<President | null>(() => {
+        const p1 = searchParams.get('p1');
+        if (p1) {
+            return presidents.presidents.find(p => p.number[0] === parseInt(p1)) || null;
+        }
+        return null;
+    });
+    const [president2, setPresident2] = useState<President | null>(() => {
+        const p2 = searchParams.get('p2');
+        if (p2) {
+            return presidents.presidents.find(p => p.number[0] === parseInt(p2)) || null;
+        }
+        return null;
+    });
+
+    const updateURL = (p1: string | null, p2: string | null) => {
+        const params = new URLSearchParams();
+        if (p1) params.set('p1', p1);
+        if (p2) params.set('p2', p2);
+        router.push(`/compare/presidents?${params.toString()}`, { scroll: false });
+    };
 
     const getLatestTerm = (terms: Term[]): Term | null => {
         return terms.length > 0 ? terms[terms.length - 1] : null;
@@ -42,10 +65,12 @@ export default function ComparePresidents() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                 <select 
+                    value={president1?.number[0] || ""}
                     className="w-full p-3 border rounded-lg shadow-sm dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     onChange={(e) => {
                         const found = presidents.presidents.find(p => p.number[0] === parseInt(e.target.value));
                         setPresident1(found || null);
+                        updateURL(e.target.value || null, president2?.number[0]?.toString() || null);
                     }}
                 >
                     <option value="">Select First President</option>
@@ -57,10 +82,12 @@ export default function ComparePresidents() {
                 </select>
 
                 <select 
+                    value={president2?.number[0] || ""}
                     className="w-full p-3 border rounded-lg shadow-sm dark:bg-gray-800 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     onChange={(e) => {
                         const found = presidents.presidents.find(p => p.number[0] === parseInt(e.target.value));
                         setPresident2(found || null);
+                        updateURL(president1?.number[0]?.toString() || null, e.target.value || null);
                     }}
                 >
                     <option value="">Select Second President</option>
@@ -184,5 +211,13 @@ export default function ComparePresidents() {
                 </div>
             )}
         </div>
+    );
+}
+
+export default function ComparePresidentsPage() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <ComparePresidentsContent />
+        </Suspense>
     );
 } 

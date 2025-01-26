@@ -30,7 +30,9 @@ const NAV_ITEMS = [
             { href: '/presidents/bill-clinton?n=42', label: 'Bill Clinton' },
             { href: '/presidents', label: 'View All Presidents →' },
         ]
-    },];
+    },
+    { href: '/compare/presidents', label: 'Compare' }
+];
 
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

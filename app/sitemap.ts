@@ -36,6 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'weekly' as ChangeFreq,
             priority: 0.8
         },
+        {
+            url: `${baseUrl}/compare/presidents`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly' as ChangeFreq,
+            priority: 0.8,
+        },
     ];
 
     // Guide Routes
