@@ -82,13 +82,16 @@ export default function Footer() {
                             <li><Link href="/attributions" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
                                 Attributions
                             </Link></li>
+                            <li><Link href="/glossary" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400">
+                                Glossary
+                            </Link></li>
                             <li><Link className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                                 href="https://thenounproject.com/browse/icons/term/american-eagle/" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 title="American Eagle Icons"
                             >
-                                Noun Project
+                                Eagle Icon by Noun Project
                             </Link> (CC BY 3.0)</li>
                         </ul>
                     </div>
