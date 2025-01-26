@@ -6,6 +6,7 @@ import Navigation from "../components/Navigation"
 import Footer from "../components/Footer"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import { Analytics } from "@vercel/analytics/react"
+import GlossaryLink from '@/components/GlossaryLink'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -70,7 +71,9 @@ export default function RootLayout({
                             
                         <Breadcrumbs />
                     
-                            {children}
+                            <GlossaryLink>
+                                {children}
+                            </GlossaryLink>
                             <Analytics />
                         </main>
                         <Footer />
