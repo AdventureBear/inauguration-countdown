@@ -1,21 +1,20 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
 import useCountdown from "@/app/hooks/useCountdown";
 
-// const INAUGURATION_DATE = '2029-01-20';
+// date format is string = '2029-01-20';
 
 interface EventProps {
     eventDate: string
 }
 
 export default function Countdown({eventDate}: EventProps) {
-    const timeLeft = useCountdown(eventDate);
+    const { timeLeft, isLoading } = useCountdown(eventDate);
 
-    const [isClient, setIsClient] = useState(false);
-    useEffect(() => {
-        setIsClient(true)
-    }, []);
+    // const [isClient, setIsClient] = useState(false);
+    // useEffect(() => {
+    //     setIsClient(true)
+    // }, []);
 
     // console.log(timeLeft);
     // Object.entries(timeLeft).map((entry) => {
@@ -23,7 +22,14 @@ export default function Countdown({eventDate}: EventProps) {
     // })
 
 
-    if (!isClient) return null
+    // if (!isClient) return null
+    if (isLoading) {
+        return (
+            <div className="text-center text-gray-500 dark:text-gray-300">
+                Loading countdown...
+            </div>
+        );
+    }
 
     if (!timeLeft) {
         return (

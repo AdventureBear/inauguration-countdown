@@ -7,10 +7,13 @@ import { useState, useEffect } from 'react';
 
 const useCountdown = (targetDate: string) => {
     const [timeLeft, setTimeLeft] = useState<Record<string, number> | null>(null);
+    const [isLoading, setIsLoading] = useState(true); // Add loading state
 
+    const target = new Date(targetDate).getTime();
     useEffect(() => {
+        
         function calculateTime() {
-            const target = new Date(targetDate).getTime();
+            
             const now = Date.now();
             const difference = target - now;
 
@@ -25,6 +28,8 @@ const useCountdown = (targetDate: string) => {
                 minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
                 seconds: Math.floor((difference % (1000 * 60)) / 1000)
             });
+
+            setIsLoading(false); // Update loading state
         }
 
         calculateTime();
@@ -33,7 +38,7 @@ const useCountdown = (targetDate: string) => {
         return () => clearInterval(timer);
     }, [targetDate]);
 
-    return timeLeft;
+    return { timeLeft, isLoading };
 }
 
 export default useCountdown
