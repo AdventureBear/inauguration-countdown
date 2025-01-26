@@ -30,7 +30,7 @@ export default function GlossaryPage() {
                     <a href="#realignment" className="text-blue-600 dark:text-blue-400 hover:underline">Political Realignment</a>
                     <a href="#social-conservatism" className="text-blue-600 dark:text-blue-400 hover:underline">Social Conservatism</a>
                     <a href="#social-justice" className="text-blue-600 dark:text-blue-400 hover:underline">Social Justice</a>
-                    <a href="#states-rights" className="text-blue-600 dark:text-blue-400 hover:underline">States' Rights</a>
+                    <a href="#states-rights" className="text-blue-600 dark:text-blue-400 hover:underline">States&apos; Rights</a>
                 </div>
             </div>
 
@@ -133,7 +133,7 @@ export default function GlossaryPage() {
                 </div>
 
                 <div id="states-rights" className="scroll-mt-16">
-                    <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">States' Rights</h2>
+                    <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">States&apos; Rights</h2>
                     <p className="text-gray-600 dark:text-gray-300 mb-2">Political position that emphasizes the rights and powers retained by state governments rather than the federal government, based on the 10th Amendment to the Constitution.</p>
                     <BackToTop />
                 </div>
