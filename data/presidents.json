@@ -558,8 +558,7 @@
           "electedOn": "1860-11-06",
           "yearStart": 1861,
           "yearEnd": 1865,
-          "completedTerm": false,
-          "reasonForIncompletion": "Assassinated by John Wilkes Booth",
+          "completedTerm": true,
           "party": "Republican",
           "opponents": ["John C. Breckinridge", "Stephen A. Douglas", "John Bell"],
           "runningMate": "Hannibal Hamlin"
