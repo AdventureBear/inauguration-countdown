@@ -45,6 +45,7 @@ export default function AttributionsPage() {
 
             <h2>Government Resources</h2>
             <ul>
+                <li><a href="https://www.whitehousehistory.org/the-presidents-timeline" target="_blank" rel="noopener noreferrer">White House Historical Association&apos;s - The Presidents Timeline</a></li>
                 <li><a href="https://www.archives.gov/" target="_blank" rel="noopener noreferrer">National Archives and Records Administration (NARA)</a></li>
                 <li><a href="https://www.congress.gov/" target="_blank" rel="noopener noreferrer">Congress.gov</a></li>
                 <li><a href="https://www.whitehousehistory.org/" target="_blank" rel="noopener noreferrer">The White House Historical Association</a></li>

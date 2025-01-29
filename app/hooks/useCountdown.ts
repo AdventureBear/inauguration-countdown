@@ -19,15 +19,15 @@ const useCountdown = (targetDate: string) => {
 
             if (difference <= 0) {
                 setTimeLeft(null);
-                return;
+                
+            }else {
+                setTimeLeft({
+                    days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                    hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                    minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+                    seconds: Math.floor((difference % (1000 * 60)) / 1000)
+                });
             }
-
-            setTimeLeft({
-                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-                hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-                minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-                seconds: Math.floor((difference % (1000 * 60)) / 1000)
-            });
 
             setIsLoading(false); // Update loading state
         }
@@ -36,7 +36,7 @@ const useCountdown = (targetDate: string) => {
         const timer = setInterval(calculateTime, 1000);
 
         return () => clearInterval(timer);
-    }, [targetDate]);
+    }, [target]);
 
     return { timeLeft, isLoading };
 }

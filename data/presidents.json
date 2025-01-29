@@ -928,8 +928,8 @@
       {
         "inaugurationDate": "1897-03-04",
         "electedOn": "1896-11-03",
-        "yearStart": 1897,
-        "yearEnd": 1901,
+        "yearStart": 1901,
+        "yearEnd": 1905,
         "completedTerm": true,
         "party": "Republican",
         "opponents": ["None (assumed office after McKinley's assassination)"],
@@ -1201,7 +1201,7 @@
         "yearStart": 1945,
         "yearEnd": 1945,
         "completedTerm": false,
-        "reasonForIncompletion": "Died in office",
+        "reasonForIncompletion": "Died in office of a cerebral hemorrhage",
         "party": "Democratic",
         "opponents": ["Thomas E. Dewey"],
         "runningMate": "Harry S. Truman"
@@ -1478,9 +1478,9 @@
     "name": "Jimmy Carter",
     "birthDate": "1924-10-01",
     "placeOfBirth": "Plains, Georgia",
-    "deathDate": null,
-    "placeOfDeath": null,
-    "burialLocation": null,
+    "deathDate": "2024-12-29",
+    "placeOfDeath": "Plains, Georgia",
+    "burialLocation": "Jimmy Carter National Historic Park, Plains, Georgia",
     "terms": [
       {
         "inaugurationDate": "1977-01-20",
@@ -1741,17 +1741,6 @@
         "party": "Republican",
         "opponents": ["Hillary Clinton"],
         "runningMate": "Mike Pence"
-      },
-      {
-        "inaugurationDate": "2025-01-20",
-        "electedOn": "2020-11-05",
-        "yearStart": 2021,
-        "yearEnd": null,
-        "completedTerm": null,
-        "reasonForIncompletion": "Current President",
-        "party": "Republican",
-        "opponents": ["Kamala Harris"],
-        "runningMate": "J.D. Vance"
       }
     ],
     "significantEvents": [
@@ -1834,15 +1823,6 @@
         "opponents": ["Kamala Harris"],
         "runningMate": "J.D. Vance",
         "reasonForIncompletion": "Current President"
-      },  {
-        "inaugurationDate": "2017-01-20",
-        "electedOn": "2016-11-08",
-        "yearStart": 2017,
-        "yearEnd": 2021,
-        "completedTerm": true,
-        "party": "Republican",
-        "opponents": ["Hillary Clinton"],
-        "runningMate": "Mike Pence"
       }
     ],
     "significantEvents": [
