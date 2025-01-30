@@ -8,9 +8,9 @@ export default function Home() {
         <main className="max-w-6xl mx-auto px-4 py-8">
             {/* Existing Countdown Component */}
             <h1 className="text-center text-4xl font-bold mb-8 text-gray-900 dark:text-gray-100">
-            Countdown to the Next US Presidential Inauguration
+            Countdown to the Next US Presidential Election
             </h1>
-            <Countdown eventDate="2029-01-20"/>
+            <Countdown eventDate="2028-11-07"/>
 
             {/* Categories Section */}
             <div className="max-w-6xl mx-auto px-4 py-16">
@@ -26,8 +26,7 @@ export default function Home() {
                             Upcoming Election Events
                         </h2>
                         <p className="text-gray-600 dark:text-gray-300 mb-4">
-                            Events leading up to the next US President election. Stay informed about upcoming elections, debates, primaries, 
-                            and other important political events across the United States.
+                            Events leading up to the next US President election. Events are listed in reverse chronological order, with the Inauguration being the first event.
                         </p>
                         <Link 
                             href="/events" 

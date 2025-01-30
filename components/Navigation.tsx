@@ -22,16 +22,13 @@ const NAV_ITEMS = [
     { 
         href: '/presidents',
         label: 'Presidents',
-        dropdown: [  
-            { href: '/presidents/donald-trump?n=47', label: 'Donald Trump' },
-            { href: '/presidents/joe-biden?n=46', label: 'Joe Biden' },
-            { href: '/presidents/barack-obama?n=44', label: 'Barack Obama' },
-            { href: '/presidents/george-w-bush?n=43', label: 'George W. Bush' },
-            { href: '/presidents/bill-clinton?n=42', label: 'Bill Clinton' },
+        dropdown: [
+            { href: '/presidents/living', label: 'Living Presidents' }, // Currently Carter, Clinton, Bush, Obama, Trump, Biden
+            { href: '/presidents/historical', label: 'Historical Presidents' },
+            { href: '/compare/presidents', label: 'Compare Presidents' },
             { href: '/presidents', label: 'View All Presidents →' },
         ]
-    },
-    { href: '/compare/presidents', label: 'Compare' }
+    }
 ];
 
 export default function Navigation() {

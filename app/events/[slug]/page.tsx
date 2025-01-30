@@ -58,7 +58,7 @@ export default async function EventDetailPage({ params }: Props) {
             <div className="container flex flex-col justify-center mx-auto px-4 py-8 leading-6">
                 <h1 className="text-center text-3xl font-bold mb-4">Countdown to the {event.title}</h1>
                 <p className="text-center text-xl mb-8">
-                    {event.exact ? event.date : `Around ${new Date(event.date).toLocaleDateString()}, exact date not yet set`}
+                    {event.exact ? new Date(event.date).toLocaleDateString() : `Around ${new Date(event.date).toLocaleDateString()}, exact date not yet set`}
                 </p>
                 <Countdown  eventDate={event.date} />
                 <div className="prose prose-blue dark:prose-invert max-w-none mt-8 leading-8" dangerouslySetInnerHTML={{ __html: event.description }} />
