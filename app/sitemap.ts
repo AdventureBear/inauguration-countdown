@@ -37,10 +37,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8
         },
         {
+          url: `${baseUrl}/presidents/living`,
+          lastModified: new Date(),
+        },
+        {
+          url: `${baseUrl}/presidents/historical`,
+          lastModified: new Date(),
+        },
+        {
             url: `${baseUrl}/compare/presidents`,
             lastModified: new Date(),
             changeFrequency: 'weekly' as ChangeFreq,
             priority: 0.8,
+        },
+        {
+          url: `${baseUrl}/changelog`,
+          lastModified: new Date(),
         },
     ];
 

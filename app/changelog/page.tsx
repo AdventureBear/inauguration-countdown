@@ -19,7 +19,7 @@ const ChangeLog = () => {
                 components={{
                     // Style the main heading
                     h1: ({...props}) => (
-                        <h1 className="text-xl font-bold mb-2 text-blue-600 dark:text-blue-400" {...props} />
+                        <h1 className="text-2xl font-bold mb-2 text-blue-600 dark:text-blue-400" {...props} />
                     ),
                     // Style section headings
                     h3: ({ ...props}) => (
@@ -40,7 +40,7 @@ const ChangeLog = () => {
 
                 }}
             >
-                {markdownFiles[0].content}
+                {markdownFiles.map((markdown: { filename: string; content: string }) => markdown.content).join('\n\n')}
             </ReactMarkdown>
         </div>
     )

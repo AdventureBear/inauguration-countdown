@@ -2,7 +2,7 @@
 
 import useCountdown from "@/app/hooks/useCountdown";
 
-// date format is string = '2029-01-20';
+
 
 interface EventProps {
     eventDate: string
