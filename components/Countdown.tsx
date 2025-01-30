@@ -11,18 +11,7 @@ interface EventProps {
 export default function Countdown({eventDate}: EventProps) {
     const { timeLeft, isLoading } = useCountdown(eventDate);
 
-    // const [isClient, setIsClient] = useState(false);
-    // useEffect(() => {
-    //     setIsClient(true)
-    // }, []);
 
-    // console.log(timeLeft);
-    // Object.entries(timeLeft).map((entry) => {
-    //     console.log(entry[0])
-    // })
-
-
-    // if (!isClient) return null
     if (isLoading) {
         return (
             <div className="text-center text-gray-500 dark:text-gray-300">

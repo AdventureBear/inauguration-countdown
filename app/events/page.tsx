@@ -1,14 +1,6 @@
 // app/events/page.tsx
 // import Link from 'next/link';
-import events from '../../data/events.json';
 import Events from "@/components/Events";
-
-const filteredEvents = events.events
-    .filter((event) => event.date) // Exclude events without a date
-    .filter((event) => !isNaN(new Date(event.date).getTime())) // Exclude invalid dates
-    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()); // Sort by ascending date
-
-console.log(filteredEvents);
 
 
 export const metadata = {
