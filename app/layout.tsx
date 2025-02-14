@@ -59,7 +59,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            
+                                {/* affiliate script */}
+                    {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+                    <script type="text/javascript" src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=90a97a8c375d73324fd8d233b9a004499e49fc77"></script>
+
             <body 
                 className={inter.className}  
                 suppressHydrationWarning={true}>
@@ -78,9 +81,6 @@ export default function RootLayout({
                         </main>
                         <Footer />
                     </div>
-                    {/* affiliate script */}
-                    {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-                    <script type="text/javascript" src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=90a97a8c375d73324fd8d233b9a004499e49fc77"></script>
                
             </body>
         </html>
